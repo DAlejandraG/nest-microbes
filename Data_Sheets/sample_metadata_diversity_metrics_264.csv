@@ -1,0 +1,265 @@
+﻿id,Nest,Chamber-ID,Chamber_Iden,sample ID on tube,input_reads,filtered_reads,Control_Sample,Samples,Sample_Type,Sample_Type2,Nest_Sample,Nest_Control,Depth_categorical,depth_nest,depth_categorical,depth_continous,sample_depth,chamberid_depth,samples_good,shannon,pielou_evenness,faith_pd,observed_otus,simpson,chao1,,nest
+A-A2,Apple,A,A2,A A2,9495,8130,sample,soil,soil,soil,Apple_soil,Apple_sample,high,Apple_5,5,0.166666667,soil5,A_5,soil,6.545538974,0.891781027,17.07240547,162,0.983603572,164.5714286,,5
+A-A3,Apple,A,A3,A A3,12379,10227,control,control near,control,soil,Apple_control,Apple_control,medium,Apple_14,14,0.466666667,control near14,A_14,control,6.68168178,0.894755586,16.58418519,177,0.984888071,179.8125,,14
+A-A4,Apple,A,A4,A A4,9747,8412,control,control far,control,soil,Apple_control,Apple_control,high,Apple_5,5,0.166666667,control far5,A_5,control,6.933187592,0.922493945,18.76859661,183,0.989207424,184.5,,5
+A-B1,Apple,B,B1,A B1,23674,20840,sample,seeds,seeds,seeds,Apple_seeds,Apple_sample,high,Apple_9,9,0.3,seeds9,B_9,seeds,4.532911745,0.676509593,11.22559095,104,0.878254144,110.6,,9
+A-B2,Apple,B,B2,A B2,13992,12032,sample,soil,soil,soil,Apple_soil,Apple_sample,high,Apple_9,9,0.3,soil9,B_9,soil,6.7815487,0.915263988,12.23572818,170,0.987143699,170.7692308,,9
+A-B3,Apple,B,B3,A B3,10820,9667,control,control far,control,soil,Apple_control,Apple_control,high,Apple_9,9,0.3,control far9,B_9,control,7.043586881,0.925894708,17.17468389,195,0.990007734,196.2352941,,9
+A-C1,Apple,C,C1,A C1,31452,29306,sample,ants,ants,ants,Apple_ants,Apple_sample,medium,Apple_11.5,11.5,0.383333333,ants11.5,C_11.5,ants,0.569388443,0.139301191,4.832096917,17,0.144826509,20,,11.5
+A-C2,Apple,C,C2,A C2,12576,11093,sample,soil,soil,soil,Apple_soil,Apple_sample,medium,Apple_11.5,11.5,0.383333333,soil11.5,C_11.5,soil,7.123879551,0.9124575,19.12994152,224,0.990104603,231.1578947,,11.5
+A-C3,Apple,C,C3,A C3,8407,7389,control,control near,control,soil,Apple_control,Apple_control,medium,Apple_11.5,11.5,0.383333333,control near11.5,C_11.5,control,6.549929788,0.904885817,16.8423031,151,0.984864236,152,,11.5
+A-C4,Apple,C,C4,A C4,7623,6644,control,control far,control,soil,Apple_control,Apple_control,medium,Apple_11.5,11.5,0.383333333,control far11.5,C_11.5,control,6.606200022,0.915091538,14.59513949,149,0.986087314,149.4285714,,11.5
+A-D1,Apple,D,D1,A D1,33413,29079,sample,seeds,seeds,seeds,Apple_seeds,Apple_sample,high,Apple_7,7,0.233333333,seeds7,D_7,seeds,1.828993536,0.651500643,2.924268996,7,0.647917436,7,,7
+A-D2,Apple,D,D2,A D2,9798,8631,sample,soil,soil,soil,Apple_soil,Apple_sample,high,Apple_7,7,0.233333333,soil7,D_7,soil,6.83619199,0.920542455,16.56136546,172,0.988141872,173.25,,7
+A-D3,Apple,D,D3,A D3,10293,8758,control,control near,control,soil,Apple_control,Apple_control,high,Apple_7,7,0.233333333,control near7,D_7,control,6.656474652,0.898383512,18.81228973,170,0.985077835,172.5714286,,7
+A-D4,Apple,D,D4,A D4,8844,7713,control,control far,control,soil,Apple_control,Apple_control,high,Apple_7,7,0.233333333,control far7,D_7,control,6.504109851,0.895046224,17.64107182,154,0.983530997,154.1,,7
+A-E1,Apple,E,E1,A E1,44319,41529,sample,ants,ants,ants,Apple_ants,Apple_sample,low,Apple_27,27,0.9,ants27,E_27,ants,0.648788673,0.162197168,4.192234998,16,0.177635103,19,,27
+A-E2,Apple,E,E2,A E2,12261,10629,sample,soil,soil,soil,Apple_soil,Apple_sample,low,Apple_27,27,0.9,soil27,E_27,soil,6.71214446,0.903838562,13.77944064,172,0.984727337,173.25,,27
+A-E3,Apple,E,E3,A E3,9282,8172,control,control near,control,soil,Apple_control,Apple_control,low,Apple_27,27,0.9,control near27,E_27,control,6.798187157,0.918564775,15.45229043,169,0.986807716,170.25,,27
+A-E4,Apple,E,E4,A E4,11827,10604,control,control far,control,soil,Apple_control,Apple_control,low,Apple_27,27,0.9,control far27,E_27,control,6.892951257,0.902617531,16.62047628,199,0.986078452,209.9090909,,27
+A-F1,Apple,F,F1,A F1,10891,9234,sample,soil,soil,soil,Apple_soil,Apple_sample,low,Apple_30,30,1,soil30,F_30,soil,6.893409956,0.927203048,15.02014822,173,0.988385723,174.6666667,,30
+A-F2,Apple,F,F2,A F2,11522,10327,control,control near,control,soil,Apple_control,Apple_control,low,Apple_30,30,1,control near30,F_30,control,7.07346232,0.919409152,17.32522,207,0.988200848,208.75,,30
+A-F3,Apple,F,F3,A F3,14914,13246,control,control far,control,soil,Apple_control,Apple_control,low,Apple_30,30,1,control far30,F_30,control,7.083063631,0.905741885,17.21283623,226,0.986980062,233.5833333,,30
+A-G1,Apple,G,G1,A G1,50885,46451,sample,ants,ants,ants,Apple_ants,Apple_sample,medium,Apple_12,12,0.4,ants12,G_12,ants,0.296695377,0.069844736,4.540016629,19,0.058692778,21,,12
+A-G2,Apple,G,G2,A G2,10846,9517,sample,soil,soil,soil,Apple_soil,Apple_sample,medium,Apple_12,12,0.4,soil12,G_12,soil,6.86193102,0.894362697,21.05014046,204,0.986895875,207.25,,12
+A-G3,Apple,G,G3,A G3,12159,10673,control,control near,control,soil,Apple_control,Apple_control,medium,Apple_12,12,0.4,control near12,G_12,control,7.272723932,0.91299534,21.44307698,250,0.990834783,257.1578947,,12
+A-G4,Apple,G,G4,A G4,11773,10328,control,control far,control,soil,Apple_control,Apple_control,medium,Apple_12,12,0.4,control far12,G_12,control,7.065982399,0.910382756,20.38559158,217,0.989201924,223.1764706,,12
+A-H1,Apple,H,H1,A H1,21233,16634,sample,seeds,seeds,seeds,Apple_seeds,Apple_sample,medium,Apple_13,13,0.433333333,seeds13,H_13,seeds,3.603055209,0.545924665,12.71270555,97,0.796383692,99.15384615,,13
+A-H2,Apple,H,H2,A H2,20016,17231,sample,soil,soil,soil,Apple_soil,Apple_sample,medium,Apple_13,13,0.433333333,soil13,H_13,soil,3.12591775,0.452579595,13.8283389,120,0.628319614,125.3529412,,13
+A-H3,Apple,H,H3,A H3,14030,12319,control,control near,control,soil,Apple_control,Apple_control,medium,Apple_13,13,0.433333333,control near13,H_13,control,7.286666629,0.917425662,20.34509488,246,0.991061522,249.0555556,,13
+A-H4,Apple,H,H4,A H4,53823,49872,sample,ants,ants,ants,Apple_ants,Apple_sample,medium,Apple_13,13,0.433333333,ants13,H_13,ants,0.561734157,0.137428566,3.990325572,17,0.149120957,17.6,,13
+A-H5,Apple,H,H5,A H5,13031,11408,control,control far,control,soil,Apple_control,Apple_control,medium,Apple_13,13,0.433333333,control far13,H_13,control,7.205719971,0.918453777,20.8428667,230,0.990645171,233.3,,13
+A-I1,Apple,I,I1,A I1,16892,14740,sample,soil,soil,soil,Apple_soil,Apple_sample,low,Apple_22,22,0.733333333,soil22,I_22,soil,7.286003494,0.91599493,20.44594739,248,0.990417973,252.1363636,,22
+A-I2,Apple,I,I2,A I2,12444,10804,control,control near,control,soil,Apple_control,Apple_control,low,Apple_22,22,0.733333333,control near22,I_22,control,7.257573778,0.921419179,22.32206386,235,0.991167405,242.1578947,,22
+A-I3,Apple,I,I3,A I3,10663,9352,control,control far,control,soil,Apple_control,Apple_control,low,Apple_22,22,0.733333333,control far22,I_22,control,7.095020494,0.916495608,18.77625922,214,0.989398258,216.5,,22
+A-J1,Apple,J,J1,A J1,46014,41497,sample,seeds,seeds,seeds,Apple_seeds,Apple_sample,high,Apple_0,0,0,seeds0,J_0,seeds,1.179242265,0.456193181,2.896664848,6,0.423316743,6,,0
+A-J2,Apple,J,J2,A J2,37249,34820,sample,ants,ants,ants,Apple_ants,Apple_sample,high,Apple_0,0,0,ants0,J_0,ants,0.773971624,0.148570602,6.768742781,37,0.163868178,44.5,,0
+A-J3,Apple,J,J3,A J3,10029,8604,control,entrance soil,entrance soil,soil,Apple_entrance soil,Apple_control,high,Apple_0,0,0,entrance soil0,J_0,soil,5.949202971,0.838148222,12.96204006,137,0.963820722,138.9090909,,0
+A-J4,Apple,J,J4,A J4,10155,8684,control,soil control off mound,control,soil,Apple_control,Apple_control,high,Apple_0,0,0,soil control off mound0,J_0,control,6.070159811,0.85518912,15.2633609,137,0.968192329,137.2142857,,0
+A-J5,Apple,J,J5,A J5,10867,9479,control,soil control near mound,control,soil,Apple_control,Apple_control,high,Apple_0,0,0,soil control near mound0,J_0,control,6.720422883,0.890488521,19.56394768,187,0.984634135,187.5882353,,0
+A-M1,Apple,M,M1,A M1,49591,44622,sample,seeds,seeds,seeds,Apple_seeds,Apple_sample,high,Apple_0,0,0,seeds0,M_0,seeds,0.880808172,0.440404086,3.059743586,4,0.41431058,4,,0
+A-M2,Apple,M,M2,A M2,51687,48073,sample,ants,ants,ants,Apple_ants,Apple_sample,high,Apple_0,0,0,ants0,M_0,ants,0.443464925,0.092247178,5.481088257,28,0.08944055,35.5,,0
+A-M3,Apple,M,M3,A M3,11529,10186,control,entrance soil,entrance soil,soil,Apple_entrance soil,Apple_control,high,Apple_0,0,0,entrance soil0,M_0,soil,6.462067516,0.851116771,20.18622092,193,0.968350924,201.75,,0
+A-M4,Apple,M,M4,A M4,17527,15329,control,soil control near mound,control,soil,Apple_control,Apple_control,high,Apple_0,0,0,soil control near mound0,M_0,control,3.090308539,0.480887212,12.43608233,86,0.637689264,89,,0
+A-M5,Apple,M,M5,A M5,11426,9899,control,soil control off mound,control,soil,Apple_control,Apple_control,high,Apple_0,0,0,soil control off mound0,M_0,control,6.940075899,0.904547857,20.20670836,204,0.986403435,207.5,,0
+B-A1,Banana,A,A1,B A1,9571,8466,sample,soil,soil,soil,Banana_soil,Banana_sample,low,Banana_60,60,1,soil60,A_60,soil,6.631036613,0.872514824,20.45765449,194,0.979358322,197,,60
+B-A2,Banana,A,A2,B A2,9712,8333,control,control near,control,soil,Banana_control,Banana_control,low,Banana_60,60,1,control near60,A_60,control,6.490549856,0.894336915,14.7757198,153,0.981783699,153.75,,60
+B-B1,Banana,B,B1,B B1,40194,37653,sample,ants,ants,ants,Banana_ants,Banana_sample,high,Banana_19,19,0.316666667,ants19,B_19,ants,0.20722563,0.044086435,6.212582233,26,0.035588747,30.5,,19
+B-B3,Banana,B,B3,B B3,17265,15297,control,control near,control,soil,Banana_control,Banana_control,high,Banana_19,19,0.316666667,control near19,B_19,control,7.325466523,0.902846846,21.66538325,277,0.989091457,303.7142857,,19
+B-B4,Banana,B,B4,B B4,8561,7659,control,control far,control,soil,Banana_control,Banana_control,high,Banana_19,19,0.316666667,control far19,B_19,control,6.799203154,0.910493077,18.63714318,177,0.986877693,178.0714286,,19
+B-C1,Banana,C,C1,B C1,32638,30060,sample,ants,ants,ants,Banana_ants,Banana_sample,high,Banana_27,27,0.45,ants27,C_27,ants,0.545265859,0.139565172,4.765136514,15,0.161125458,15.25,,27
+B-C2,Banana,C,C2,B C2,7358,6482,sample,soil,soil,soil,Banana_soil,Banana_sample,high,Banana_27,27,0.45,soil27,C_27,soil,5.933709731,0.865226914,11.86706513,116,0.968402261,116.75,,27
+B-C3,Banana,C,C3,B C3,9246,7557,control,control near,control,soil,Banana_control,Banana_control,high,Banana_27,27,0.45,control near27,C_27,control,6.132807673,0.8818859,12.79321831,124,0.972311069,124,,27
+B-C4,Banana,C,C4,B C4,6389,5623,control,control far,control,soil,Banana_control,Banana_control,high,Banana_27,27,0.45,control far27,C_27,control,6.273584503,0.890578295,14.5934697,132,0.978019582,132.3,,27
+B-D1,Banana,D,D1,B D1,37296,34706,sample,ants,ants,ants,Banana_ants,Banana_sample,medium,Banana_35,35,0.583333333,ants35,D_35,ants,1.042293402,0.21920464,4.95307785,27,0.273631688,29.5,,35
+B-D2,Banana,D,D2,B D2,11800,10628,sample,brood,brood,ants,Banana_brood,Banana_sample,medium,Banana_35,35,0.583333333,brood35,D_35,brood,5.2321409,0.748658887,14.3172689,127,0.941442441,129.8,,35
+B-D3,Banana,D,D3,B D3,9588,8349,sample,soil,soil,soil,Banana_soil,Banana_sample,medium,Banana_35,35,0.583333333,soil35,D_35,soil,6.32646421,0.877523425,14.13930078,148,0.977275193,149.25,,35
+B-D4,Banana,D,D4,B D4,11232,9503,control,control near,control,soil,Banana_control,Banana_control,medium,Banana_35,35,0.583333333,control near35,D_35,control,6.707110832,0.892413345,16.90914506,183,0.982652,186.1111111,,35
+B-D6,Banana,D,D6,B D6,37233,31611,sample,reproductives,reproductives,ants,Banana_reproductives,Banana_sample,medium,Banana_35,35,0.583333333,reproductives35,D_35,reproductives,4.147621252,0.659881597,12.57879322,78,0.872969163,78.16666667,,35
+B-D7,Banana,D,D7,B D7,10198,9107,control,control far,control,soil,Banana_control,Banana_control,medium,Banana_35,35,0.583333333,control far35,D_35,control,6.809893096,0.899606736,16.76792023,190,0.984045286,195.1428571,,35
+B-E1,Banana,E,E1,B E1,11335,9859,sample,brood,brood,ants,Banana_brood,Banana_sample,medium,Banana_34,34,0.566666667,brood34,E_34,brood,4.800223719,0.651644549,16.89398641,165,0.865559953,169.0909091,,34
+B-E2,Banana,E,E2,B E2,32961,30738,sample,ants,ants,ants,Banana_ants,Banana_sample,medium,Banana_34,34,0.566666667,ants34,E_34,ants,0.320322107,0.071830254,5.801328283,22,0.062441921,32.5,,34
+B-E3,Banana,E,E3,B E3,7686,6716,sample,soil,soil,soil,Banana_soil,Banana_sample,medium,Banana_34,34,0.566666667,soil34,E_34,soil,6.35115662,0.884573403,14.52525578,145,0.978359691,145.5,,34
+B-E4,Banana,E,E4,B E4,8427,7504,control,control near,control,soil,Banana_control,Banana_control,medium,Banana_34,34,0.566666667,control near34,E_34,control,6.29517072,0.862988075,15.3308171,157,0.969866594,159.3333333,,34
+B-E5,Banana,E,E5,B E5,10400,9243,control,control far,control,soil,Banana_control,Banana_control,medium,Banana_34,34,0.566666667,control far34,E_34,control,6.958463125,0.907783194,16.36314875,203,0.987044233,204.75,,34
+B-F1,Banana,F,F1,B F1,135125,123424,sample,ants,ants,ants,Banana_ants,Banana_sample,high,Banana_24,24,0.4,ants24,F_24,ants,0.455747551,0.082986115,7.275186697,45,0.083218054,87,,24
+B-F2,Banana,F,F2,B F2,9750,8594,sample,soil,soil,soil,Banana_soil,Banana_sample,high,Banana_24,24,0.4,soil24,F_24,soil,5.800843969,0.82736499,13.01546293,129,0.960652484,130.25,,24
+B-F3,Banana,F,F3,B F3,8455,7345,control,control near,control,soil,Banana_control,Banana_control,high,Banana_24,24,0.4,control near24,F_24,control,6.662896261,0.897206938,16.88185267,172,0.982161699,172.375,,24
+B-F4,Banana,F,F4,B F4,10326,9302,control,control far,control,soil,Banana_control,Banana_control,high,Banana_24,24,0.4,control far24,F_24,control,6.91719472,0.904935225,18.72385158,200,0.986672955,204.1363636,,24
+B-H1,Banana,H,H1,B H1,20400,18727,sample,seeds,seeds,seeds,Banana_seeds,Banana_sample,high,Banana_26,26,0.433333333,seeds26,H_26,seeds,1.102682364,0.275670591,4.320423548,16,0.440782849,16.33333333,,26
+B-H2,Banana,H,H2,B H2,6013,5333,sample,soil,soil,soil,Banana_soil,Banana_sample,high,Banana_26,26,0.433333333,soil26,H_26,soil,6.101747482,0.884975889,12.84567288,119,0.977277026,119,,26
+B-H3,Banana,H,H3,B H3,7590,6765,control,control near,control,soil,Banana_control,Banana_control,high,Banana_26,26,0.433333333,control near26,H_26,control,6.630141079,0.910058344,15.00225277,156,0.983495702,157.1111111,,26
+B-H4,Banana,H,H4,B H4,17365,15763,sample,ants,ants,ants,Banana_ants,Banana_sample,high,Banana_26,26,0.433333333,ants26,H_26,ants,2.687369556,0.444605283,9.737013128,66,0.608510638,68.33333333,,26
+B-H5,Banana,H,H5,B H5,6614,5933,control,control far,control,soil,Banana_control,Banana_control,high,Banana_26,26,0.433333333,control far26,H_26,control,6.574638594,0.908299388,14.0736592,151,0.984161558,151.125,,26
+B-I1,Banana,I,I1,B I1,11704,8456,sample,brood,brood,ants,Banana_brood,Banana_sample,medium,Banana_32,32,0.533333333,brood32,I_32,brood,4.799381784,0.722378939,10.55120396,100,0.915038162,100.8333333,,32
+B-I2,Banana,I,I2,B I2,13167,7110,sample,reproductives,reproductives,ants,Banana_reproductives,Banana_sample,medium,Banana_32,32,0.533333333,reproductives32,I_32,reproductives,5.366384557,0.851296194,16.23480903,79,0.954877355,79,,32
+B-I3,Banana,I,I3,B I3,8926,8144,sample,ants,ants,ants,Banana_ants,Banana_sample,medium,Banana_32,32,0.533333333,ants32,I_32,ants,0.936322686,0.184045115,7.345960027,34,0.193946581,34,,32
+B-I4,Banana,I,I4,B I4,19516,16975,sample,soil,soil,soil,Banana_soil,Banana_sample,medium,Banana_32,32,0.533333333,soil32,I_32,soil,7.112091633,0.883506266,21.41766573,265,0.986361877,279.1304348,,32
+B-I5,Banana,I,I5,B I5,8839,7383,control,control near,control,soil,Banana_control,Banana_control,medium,Banana_32,32,0.533333333,control near32,I_32,control,6.386438897,0.884650203,15.28984834,149,0.977404452,151.5,,32
+B-I6,Banana,I,I6,B I6,9677,8077,control,control far,control,soil,Banana_control,Banana_control,medium,Banana_32,32,0.533333333,control far32,I_32,control,6.32394793,0.888327051,14.38947548,139,0.979242813,139.75,,32
+B-J1,Banana,J,J1,B J1,8618,7551,sample,brood,brood,ants,Banana_brood,Banana_sample,high,Banana_20,20,0.333333333,brood20,J_20,brood,6.91566039,0.888000375,23.42829057,221,0.984485013,221.1764706,,20
+B-J2,Banana,J,J2,B J2,27857,24752,sample,reproductives,reproductives,ants,Banana_reproductives,Banana_sample,high,Banana_20,20,0.333333333,reproductives20,J_20,reproductives,7.09630742,0.931023245,18.93072239,197,0.985965999,198,,20
+B-J3,Banana,J,J3,B J3,39612,36741,sample,ants,ants,ants,Banana_ants,Banana_sample,high,Banana_20,20,0.333333333,ants20,J_20,ants,0.505362621,0.093132688,9.102190567,43,0.103819243,73,,20
+B-J4,Banana,J,J4,B J4,8196,7135,sample,soil,soil,soil,Banana_soil,Banana_sample,high,Banana_20,20,0.333333333,soil20,J_20,soil,6.661444921,0.912054339,17.29312814,158,0.986445911,158,,20
+B-J5,Banana,J,J5,B J5,7207,6182,control,control near,control,soil,Banana_control,Banana_control,high,Banana_20,20,0.333333333,control near20,J_20,control,6.513807541,0.912355303,14.28594372,141,0.985212596,141.125,,20
+B-J6,Banana,J,J6,B J6,9647,8527,control,control far,control,soil,Banana_control,Banana_control,high,Banana_20,20,0.333333333,control far20,J_20,control,6.807303623,0.908627483,17.6935282,180,0.987069444,181.8666667,,20
+B-K1,Banana,K,K1,B K1,15774,13307,sample,brood,brood,ants,Banana_brood,Banana_sample,high,Banana_12,12,0.2,brood12,K_12,brood,5.36015599,0.723427342,17.29374726,170,0.909200848,180.9285714,,12
+B-K2,Banana,K,K2,B K2,43475,38808,sample,seeds,seeds,seeds,Banana_seeds,Banana_sample,high,Banana_12,12,0.2,seeds12,K_12,seeds,0.936658858,0.333644617,2.912691022,7,0.378816103,7,,12
+B-K3,Banana,K,K3,B K3,8722,7653,sample,soil,soil,soil,Banana_soil,Banana_sample,high,Banana_12,12,0.2,soil12,K_12,soil,6.687992281,0.90160761,18.55958677,171,0.986191364,172.3125,,12
+B-K4,Banana,K,K4,B K4,39311,36358,sample,ants,ants,ants,Banana_ants,Banana_sample,high,Banana_12,12,0.2,ants12,K_12,ants,0.219081542,0.049127683,5.317674642,22,0.041490692,25,,12
+B-K5,Banana,K,K5,B K5,10058,8930,control,control near,control,soil,Banana_control,Banana_control,high,Banana_12,12,0.2,control near12,K_12,control,6.125185956,0.851924258,16.56265995,146,0.967341598,151.5,,12
+B-K6,Banana,K,K6,B K6,32323,29263,sample,leaf,seeds,seeds,Banana_seeds,Banana_sample,high,Banana_12,12,0.2,leaf12,K_12,seeds,4.842433701,0.738785271,11.01574122,94,0.939101556,95.875,,12
+B-L1,Banana,L,L1,B L1,25617,22888,sample,brood,brood,ants,Banana_brood,Banana_sample,high,Banana_14,14,0.233333333,brood14,L_14,brood,6.080186442,0.82540327,17.50725741,165,0.96331285,165,,14
+B-L2,Banana,L,L2,B L2,9361,8382,sample,brood,brood,ants,Banana_brood,Banana_sample,high,Banana_14,14,0.233333333,brood14,L_14,brood,6.441395427,0.850076665,17.82772591,191,0.977157392,193.1538462,,14
+B-L3,Banana,L,L3,B L3,38006,34615,sample,ants,ants,ants,Banana_ants,Banana_sample,high,Banana_14,14,0.233333333,ants14,L_14,ants,0.475167328,0.108181464,6.027551751,21,0.120783895,25.2,,14
+B-L4,Banana,L,L4,B L4,30625,28435,sample,ants,ants,ants,Banana_ants,Banana_sample,high,Banana_14,14,0.233333333,ants14,L_14,ants,0.402034317,0.073205585,8.894463224,45,0.06999017,55.90909091,,14
+B-L5,Banana,L,L5,B L5,6713,5956,sample,soil,soil,soil,Banana_soil,Banana_sample,high,Banana_14,14,0.233333333,soil14,L_14,soil,6.060371675,0.863009719,15.9326253,130,0.97264308,130,,14
+B-L6,Banana,L,L6,B L6,8759,7750,control,control near,control,soil,Banana_control,Banana_control,high,Banana_14,14,0.233333333,control near14,L_14,control,6.703894202,0.893870928,19.05290529,181,0.98395789,184.2352941,,14
+B-L7,Banana,L,L7,B L7,7564,6756,control,control far,control,soil,Banana_control,Banana_control,high,Banana_14,14,0.233333333,control far14,L_14,control,6.740540729,0.901656111,19.84691377,178,0.986279218,178.5454545,,14
+BA3,Banana,A,A3,B A3,8961,7861,control,control far,control,soil,Banana_control,Banana_control,low,Banana_60,60,1,control far60,A_60,control,6.580282523,0.899820572,15.46154945,159,0.983912359,160.875,,60
+C-A1,Carrot,A,A1,C A1,34215,30962,sample,ants,ants,ants,Carrot_ants,Carrot_sample,low,Carrot_40,40,1,ants40,A_40,ants,1.243390352,0.292705172,4.226874169,19,0.446055455,19,,40
+C-A2,Carrot,A,A2,C A2,9485,8395,sample,soil,soil,soil,Carrot_soil,Carrot_sample,low,Carrot_40,40,1,soil40,A_40,soil,6.831334728,0.912814389,17.74634588,179,0.987723993,183.5,,40
+C-A3,Carrot,A,A3,C A3,11504,9987,control,control near,control,soil,Carrot_control,Carrot_control,low,Carrot_40,40,1,control near40,A_40,control,6.84540166,0.902496441,16.66927577,192,0.98567188,195,,40
+C-A4,Carrot,A,A4,C A4,11025,9675,control,control far,control,soil,Carrot_control,Carrot_control,low,Carrot_40,40,1,control far40,A_40,control,6.392834528,0.855144794,17.20073743,178,0.975007036,180,,40
+C-B1,Carrot,B,B1,C B1,47304,42708,sample,ants,ants,ants,Carrot_ants,Carrot_sample,low,Carrot_30,30,0.75,ants30,B_30,ants,0.778052128,0.217032152,3.726454761,12,0.315938122,14,,30
+C-B2,Carrot,B,B2,C B2,8616,7696,sample,soil,soil,soil,Carrot_soil,Carrot_sample,low,Carrot_30,30,0.75,soil30,B_30,soil,6.780679293,0.918330289,16.05994013,167,0.988167693,168.0714286,,30
+C-B3,Carrot,B,B3,C B3,9424,7972,control,control near,control,soil,Carrot_control,Carrot_control,low,Carrot_30,30,0.75,control near30,B_30,control,6.791419105,0.916596136,16.85860912,170,0.987852336,170.4,,30
+C-B4,Carrot,B,B4,C B4,11116,9935,control,control far,control,soil,Carrot_control,Carrot_control,low,Carrot_30,30,0.75,control far30,B_30,control,6.995004845,0.90201242,20.3167599,216,0.987548438,222,,30
+C-C1,Carrot,C,C1,C C1,25374,22598,sample,seeds,seeds,seeds,Carrot_seeds,Carrot_sample,low,Carrot_38,38,0.95,seeds38,C_38,seeds,3.717448166,0.530213618,13.19373268,129,0.839448113,145.9166667,,38
+C-C2,Carrot,C,C2,C C2,45538,41042,sample,ants,ants,ants,Carrot_ants,Carrot_sample,low,Carrot_38,38,0.95,ants38,C_38,ants,0.988628265,0.297606762,3.487802728,10,0.412704917,10,,38
+C-C3,Carrot,C,C3,C C3,8265,7262,sample,soil,soil,soil,Carrot_soil,Carrot_sample,low,Carrot_38,38,0.95,soil38,C_38,soil,6.82953733,0.915557335,18.45995343,176,0.98761429,176.0909091,,38
+C-C4,Carrot,C,C4,C C4,10343,8900,control,control near,control,soil,Carrot_control,Carrot_control,low,Carrot_38,38,0.95,control near38,C_38,control,6.550293174,0.900244802,14.72197601,155,0.984048952,155.6666667,,38
+C-C5,Carrot,C,C5,C C5,10248,8877,control,control far,control,soil,Carrot_control,Carrot_control,low,Carrot_38,38,0.95,control far38,C_38,control,6.749893119,0.898105734,16.8537796,183,0.985920468,185.1538462,,38
+C-D1,Carrot,D,D1,C D1,15195,13367,sample,beetle/seeds/food,seeds,seeds,Carrot_seeds,Carrot_sample,medium,Carrot_22,22,0.55,beetle/seeds/food22,D_22,seeds,5.675173321,0.791524782,14.35351967,144,0.956853531,149.5,,22
+C-D2,Carrot,D,D2,C D2,46660,42403,sample,ants,ants,ants,Carrot_ants,Carrot_sample,medium,Carrot_22,22,0.55,ants22,D_22,ants,1.030106297,0.343368766,3.375091786,8,0.478776347,9.5,,22
+C-D3,Carrot,D,D3,C D3,13295,11788,sample,soil,soil,soil,Carrot_soil,Carrot_sample,medium,Carrot_22,22,0.55,soil22,D_22,soil,7.221276124,0.91328899,20.56981827,240,0.990771069,248.1428571,,22
+C-D4,Carrot,D,D4,C D4,12895,11258,control,control near,control,soil,Carrot_control,Carrot_control,medium,Carrot_22,22,0.55,control near22,D_22,control,6.745722399,0.866907925,20.05631917,220,0.980370551,227.7727273,,22
+C-D5,Carrot,D,D5,C D5,14949,13184,control,control far,control,soil,Carrot_control,Carrot_control,medium,Carrot_22,22,0.55,control far22,D_22,control,7.429353225,0.918024982,20.62226548,273,0.991923101,280.2413793,,22
+C-E1,Carrot,E,E1,C E1,12499,10634,sample,soil,soil,soil,Carrot_soil,Carrot_sample,low,Carrot_34,34,0.85,soil34,E_34,soil,6.687509159,0.906776055,14.32998675,166,0.986363863,167.1538462,,34
+C-E2,Carrot,E,E2,C E2,40899,36850,sample,ants,ants,ants,Carrot_ants,Carrot_sample,low,Carrot_34,34,0.85,ants34,E_34,ants,1.701659606,0.408079187,4.136688494,18,0.582491999,18.25,,34
+C-E3,Carrot,E,E3,C E3,12867,11299,control,control near,control,soil,Carrot_control,Carrot_control,low,Carrot_34,34,0.85,control near34,E_34,control,6.926036246,0.896235447,17.72397544,212,0.986009239,214.1176471,,34
+C-E4,Carrot,E,E4,C E4,9106,8072,control,control far,control,soil,Carrot_control,Carrot_control,low,Carrot_34,34,0.85,control far34,E_34,control,6.72200225,0.903137617,17.77450935,174,0.985740483,176.3333333,,34
+C-F1,Carrot,F,F1,C F1,18024,16177,sample,reproductives,reproductives,ants,Carrot_reproductives,Carrot_sample,low,Carrot_36,36,0.9,reproductives36,F_36,reproductives,4.89732959,0.863357258,7.319751817,51,0.938875734,51,,36
+C-F2,Carrot,F,F2,C F2,53436,49335,sample,brood,brood,ants,Carrot_brood,Carrot_sample,low,Carrot_36,36,0.9,brood36,F_36,brood,0.804627312,0.135136175,9.362293327,62,0.164658863,87.09090909,,36
+C-F3,Carrot,F,F3,C F3,9232,8266,sample,soil,soil,soil,Carrot_soil,Carrot_sample,low,Carrot_36,36,0.9,soil36,F_36,soil,5.938378869,0.820398842,13.53345794,151,0.951299946,154,,36
+C-F4,Carrot,F,F4,C F4,9002,7843,control,control near,control,soil,Carrot_control,Carrot_control,low,Carrot_36,36,0.9,control near36,F_36,control,6.479689993,0.892840528,14.04245972,153,0.983112813,158.25,,36
+C-F5,Carrot,F,F5,C F5,61661,55780,sample,ants,ants,ants,Carrot_ants,Carrot_sample,low,Carrot_36,36,0.9,ants36,F_36,ants,1.265862201,0.365916237,3.447062943,11,0.493300801,11,,36
+C-F6,Carrot,F,F6,C F6,6870,6017,control,control far,control,soil,Carrot_control,Carrot_control,low,Carrot_36,36,0.9,control far36,F_36,control,6.167733364,0.882531355,13.30088244,127,0.977680848,127.5,,36
+C-G1,Carrot,G,G1,C G1,56095,50331,sample,ants,ants,ants,Carrot_ants,Carrot_sample,medium,Carrot_26,26,0.65,ants26,G_26,ants,1.072976991,0.322998259,3.500003589,10,0.428458714,10,,26
+C-G2,Carrot,G,G2,C G2,8363,7304,sample,soil,soil,soil,Carrot_soil,Carrot_sample,medium,Carrot_26,26,0.65,soil26,G_26,soil,6.687303729,0.921447754,16.01866402,153,0.987294197,153.1,,26
+C-G2-1,Carrot,G,G2,C G2,6450,5692,control,control near,control,soil,Carrot_control,Carrot_control,medium,Carrot_26,26,0.65,control near26,G_26,control,5.458893607,0.818127342,11.33941261,102,0.935960667,102,,26
+C-H1,Carrot,H,H1,C H1,16624,15063,sample,soil,soil,soil,Carrot_soil,Carrot_sample,low,Carrot_30,30,0.75,soil30,H_30,soil,6.687169508,0.848341028,17.4512071,236,0.969741459,247.5,,30
+C-H2,Carrot,H,H2,C H2,8369,7133,control,control near,control,soil,Carrot_control,Carrot_control,low,Carrot_30,30,0.75,control near30,H_30,control,6.659902231,0.916485188,14.37566884,154,0.985462712,154.375,,30
+C-I1,Carrot,I,I1,C I1,37529,34049,sample,leaf,seeds,seeds,Carrot_seeds,Carrot_sample,medium,Carrot_26,26,0.65,leaf26,I_26,seeds,5.507689092,0.73359613,17.02899818,182,0.937566635,198.4347826,,26
+C-I2,Carrot,I,I2,C I2,32310,29094,sample,seeds,seeds,seeds,Carrot_seeds,Carrot_sample,medium,Carrot_26,26,0.65,seeds26,I_26,seeds,2.716945993,0.414510514,10.49174697,94,0.598672995,98.10526316,,26
+C-I3,Carrot,I,I3,C I3,56788,50928,sample,ants,ants,ants,Carrot_ants,Carrot_sample,medium,Carrot_26,26,0.65,ants26,I_26,ants,0.944053513,0.336278646,3.123745763,7,0.375886369,10,,26
+C-I4,Carrot,I,I4,C I4,10246,9036,sample,soil,soil,soil,Carrot_soil,Carrot_sample,medium,Carrot_26,26,0.65,soil26,I_26,soil,6.63620147,0.896677419,17.97070752,169,0.984576839,172.0555556,,26
+C-I5,Carrot,I,I5,C I5,12194,10531,control,control near,control,soil,Carrot_control,Carrot_control,medium,Carrot_26,26,0.65,control near26,I_26,control,6.870012359,0.893776347,19.01818096,206,0.986919252,216.0588235,,26
+C-I6,Carrot,I,I6,C I6,6592,5869,control,control far,control,soil,Carrot_control,Carrot_control,medium,Carrot_26,26,0.65,control far26,I_26,control,6.388021672,0.893461204,16.64778436,142,0.982306849,142,,26
+C-J1,Carrot,J,J1,C J1,25122,21720,sample,reproductives,reproductives,ants,Carrot_reproductives,Carrot_sample,high,Carrot_17,17,0.425,reproductives17,J_17,reproductives,5.397232896,0.772281644,13.82094493,127,0.942340383,127.1666667,,17
+C-J2,Carrot,J,J2,C J2,17555,15769,sample,soil,soil,soil,Carrot_soil,Carrot_sample,high,Carrot_17,17,0.425,soil17,J_17,soil,4.061099576,0.618141374,11.12548815,95,0.826176073,97.54545455,,17
+C-J3,Carrot,J,J3,C J3,49897,45197,sample,ants,ants,ants,Carrot_ants,Carrot_sample,high,Carrot_17,17,0.425,ants17,J_17,ants,1.162220751,0.32419328,4.078628483,12,0.457251241,15,,17
+C-J4,Carrot,J,J4,C J4,6855,6109,control,control near,control,soil,Carrot_control,Carrot_control,high,Carrot_17,17,0.425,control near17,J_17,control,6.063329123,0.855500658,15.38804562,136,0.972152932,136.8571429,,17
+C-J5,Carrot,J,J5,C J5,8224,7089,control,control far,control,soil,Carrot_control,Carrot_control,high,Carrot_17,17,0.425,control far17,J_17,control,6.402255576,0.89169034,16.22001087,145,0.982308377,145,,17
+C-K1,Carrot,K,K1,C K1,34510,30974,sample,seeds,seeds,seeds,Carrot_seeds,Carrot_sample,high,Carrot_6,6,0.15,seeds6,K_6,seeds,1.772791819,0.685809492,3.017657705,6,0.626730759,6,,6
+C-K2,Carrot,K,K2,C K2,7819,6077,sample,soil,soil,soil,Carrot_soil,Carrot_sample,high,Carrot_6,6,0.15,soil6,K_6,soil,5.118736351,0.814384851,10.64439003,78,0.931216866,78,,6
+C-K3,Carrot,K,K3,C K3,6701,5755,control,control near,control,soil,Carrot_control,Carrot_control,high,Carrot_6,6,0.15,control near6,K_6,control,6.679188279,0.906719539,18.88476246,165,0.985877993,165,,6
+C-K4,Carrot,K,K4,C K4,9822,8662,control,control far,control,soil,Carrot_control,Carrot_control,high,Carrot_6,6,0.15,control far6,K_6,control,7.007670421,0.91677162,19.48138556,200,0.988781753,201.4,,6
+DC-A1,DC,A,A1,DC A1,8486,7282,sample,soil,soil,soil,DC_soil,DC_sample,high,DC_16,16,0.301886792,soil16,A_16,soil,6.848825426,0.912228658,18.09338106,182,0.985974403,182.3333333,,16
+DC-A2,DC,A,A2,DC A2,7564,6315,control,control near,control,soil,DC_control,DC_control,high,DC_16,16,0.301886792,control near16,A_16,control,6.229577797,0.887105028,14.49216931,130,0.975341644,130.25,,16
+DC-A3,DC,A,A3,DC A3,11390,9899,control,control far,control,soil,DC_control,DC_control,high,DC_16,16,0.301886792,control far16,A_16,control,6.966035861,0.915700459,17.01878684,195,0.988714679,195.8333333,,16
+DC-B1,DC,B,B1,DC B1,9692,8340,sample,soil,soil,soil,DC_soil,DC_sample,medium,DC_28,28,0.528301887,soil28,B_28,soil,6.325681417,0.886005451,13.96360316,141,0.976019723,143.1,,28
+DC-B2,DC,B,B2,DC B2,15279,13186,sample,ants,ants,ants,DC_ants,DC_sample,medium,DC_28,28,0.528301887,ants28,B_28,ants,0.689379061,0.21747488,3.022140991,9,0.2115887,9,,28
+DC-B4,DC,B,B4,DC B4,6857,5869,control,control far,control,soil,DC_control,DC_control,medium,DC_28,28,0.528301887,control far28,B_28,control,6.463835881,0.91476851,14.51176568,134,0.984810301,134,,28
+DC-C1,DC,C,C1,DC C1,47723,44589,sample,ants,ants,ants,DC_ants,DC_sample,medium,DC_30,30,0.566037736,ants30,C_30,ants,0.102719841,0.036589546,3.184388291,7,0.020855736,7.333333333,,30
+DC-C2,DC,C,C2,DC C2,14340,12426,sample,soil,soil,soil,DC_soil,DC_sample,medium,DC_30,30,0.566037736,soil30,C_30,soil,6.902344162,0.90470855,18.66840355,198,0.988058449,201.2142857,,30
+DC-C3,DC,C,C3,DC C3,12361,10474,control,control near,control,soil,DC_control,DC_control,medium,DC_30,30,0.566037736,control near30,C_30,control,6.727322476,0.913253898,16.30400822,165,0.987390607,168,,30
+DC-C4,DC,C,C4,DC C4,9258,7887,control,control far,control,soil,DC_control,DC_control,medium,DC_30,30,0.566037736,control far30,C_30,control,6.727901225,0.904941178,15.00438462,173,0.984596396,175.625,,30
+DC-D1,DC,D,D1,DC D1,40572,37133,sample,ants,ants,ants,DC_ants,DC_sample,medium,DC_25,25,0.471698113,ants25,D_25,ants,1.254887186,0.362743747,3.596568043,11,0.536629701,14,,25
+DC-D2,DC,D,D2,DC D2,8664,7254,sample,soil,soil,soil,DC_soil,DC_sample,medium,DC_25,25,0.471698113,soil25,D_25,soil,6.424630667,0.902469988,15.93159799,139,0.982956509,140,,25
+DC-D3,DC,D,D3,DC D3,9889,8727,control,control near,control,soil,DC_control,DC_control,medium,DC_25,25,0.471698113,control near25,D_25,control,6.762785841,0.915906918,16.04029242,167,0.987580982,167.5454545,,25
+DC-D4,DC,D,D4,DC D4,7764,6705,control,control far,control,soil,DC_control,DC_control,medium,DC_25,25,0.471698113,control far25,D_25,control,6.506728458,0.901312726,15.15034571,149,0.983606322,151.1428571,,25
+DC-E2,DC,E,E2,DC E2,7087,6204,control,control near,control,soil,DC_control,DC_control,high,DC_11,11,0.20754717,control near11,E_11,control,6.142378597,0.85668659,16.10611687,144,0.970108306,144.375,,11
+DC-E3,DC,E,E3,DC E3,8908,7977,sample,seeds,seeds,seeds,DC_seeds,DC_sample,high,DC_11,11,0.20754717,seeds11,E_11,seeds,5.795023655,0.817644309,13.58231945,136,0.954876896,137.875,,11
+DC-E4,DC,E,E4,DC E4,8228,7034,control,control far,control,soil,DC_control,DC_control,high,DC_11,11,0.20754717,control far11,E_11,control,6.814792779,0.917660897,17.76911211,172,0.987447903,172.1,,11
+DC-F1,DC,F,F1,DC F1,18714,16590,sample,seeds,seeds,seeds,DC_seeds,DC_sample,high,DC_0,0,0,seeds0,F_0,seeds,1.982642093,0.507473154,5.061522977,15,0.649091928,15.33333333,,0
+DC-F2,DC,F,F2,DC F2,23133,20952,sample,ants,ants,ants,DC_ants,DC_sample,high,DC_0,0,0,ants0,F_0,ants,1.221076946,0.320715292,4.068102615,14,0.514342176,15.5,,0
+DC-F2-1,DC,F,F2,DC F2,20191,17031,control,entrance soil,entrance soil,soil,DC_entrance soil,DC_control,high,DC_0,0,0,entrance soil0,F_0,soil,5.379197551,0.769700994,11.65461581,127,0.935047598,130,,0
+DC-F4,DC,F,F4,DC F4,10386,8737,control,soil control near mound,control,soil,DC_control,DC_control,high,DC_0,0,0,soil control near mound0,F_0,control,4.817632832,0.759896974,8.799569776,81,0.934019021,83.14285714,,0
+DC-G1,DC,G,G1,DC G1,38825,32899,sample,seeds,seeds,seeds,DC_seeds,DC_sample,high,DC_13,13,0.245283019,seeds13,G_13,seeds,1.16370278,0.450181687,2.956254826,6,0.510274315,6,,13
+DC-G2,DC,G,G2,DC G2,41845,37901,sample,ants,ants,ants,DC_ants,DC_sample,high,DC_13,13,0.245283019,ants13,G_13,ants,1.006077146,0.634764005,2.617053244,3,0.500449048,3,,13
+DC-G3,DC,G,G3,DC G3,6107,5374,sample,soil,soil,soil,DC_soil,DC_sample,high,DC_13,13,0.245283019,soil13,G_13,soil,6.393005854,0.919301896,12.1875128,124,0.983831839,124,,13
+DC-G5,DC,G,G5,DC G5,9182,7937,control,control far,control,soil,DC_control,DC_control,high,DC_13,13,0.245283019,control far13,G_13,control,7.131536101,0.915719739,21.61973113,221,0.98911575,223,,13
+DC-H1,DC,H,H1,DC H1,38180,34915,sample,ants,ants,ants,DC_ants,DC_sample,medium,DC_30,30,0.566037736,ants30,H_30,ants,1.120732809,0.433558633,3.005529881,6,0.478212402,7,,30
+DC-H2,DC,H,H2,DC H2,10699,8896,sample,soil,soil,soil,DC_soil,DC_sample,medium,DC_30,30,0.566037736,soil30,H_30,soil,6.336376291,0.878898298,16.21296747,148,0.979718293,150.625,,30
+DC-H3,DC,H,H3,DC H3,10613,9350,control,control near,control,soil,DC_control,DC_control,medium,DC_30,30,0.566037736,control near30,H_30,control,7.058350659,0.917444937,18.99536479,207,0.98968978,210.4375,,30
+DC-H4,DC,H,H4,DC H4,11484,9722,control,control far,control,soil,DC_control,DC_control,medium,DC_30,30,0.566037736,control far30,H_30,control,7.205406844,0.922140852,18.05677774,225,0.99041232,226.75,,30
+DC-I1,DC,I,I1,DC I1,48460,41843,sample,ants,ants,ants,DC_ants,DC_sample,medium,DC_24,24,0.452830189,ants24,I_24,ants,1.096711383,0.258175635,6.899839742,19,0.489965412,31,,24
+DC-I2,DC,I,I2,DC I2,9361,7786,sample,soil,soil,soil,DC_soil,DC_sample,medium,DC_24,24,0.452830189,soil24,I_24,soil,5.983506383,0.854786626,12.29913828,128,0.968816626,128.75,,24
+DC-J1,DC,J,J1,DC J1,31856,28869,sample,ants,ants,ants,DC_ants,DC_sample,medium,DC_19,19,0.358490566,ants19,J_19,ants,0.816762092,0.351760286,3.023700769,5,0.368939193,6,,19
+DC-J2,DC,J,J2,DC J2,8322,7246,sample,soil,soil,soil,DC_soil,DC_sample,medium,DC_19,19,0.358490566,soil19,J_19,soil,6.506369794,0.902477548,14.8536333,148,0.983130689,148.8571429,,19
+DC-J3,DC,J,J3,DC J3,8102,7012,control,control near,control,soil,DC_control,DC_control,medium,DC_19,19,0.358490566,control near19,J_19,control,7.004378048,0.930025665,16.79397045,185,0.990092838,185.9090909,,19
+DC-J4,DC,J,J4,DC J4,8622,7223,control,control far,control,soil,DC_control,DC_control,medium,DC_19,19,0.358490566,control far19,J_19,control,6.642009764,0.931651857,14.30979851,140,0.987182355,140,,19
+DC-K1,DC,K,K1,DC K1,32499,29668,sample,ants,ants,ants,DC_ants,DC_sample,medium,DC_18,18,0.339622642,ants18,K_18,ants,1.599441457,0.26968678,8.751705747,61,0.389729383,62.4,,18
+DC-K2,DC,K,K2,DC K2,11037,9479,sample,soil,soil,soil,DC_soil,DC_sample,medium,DC_18,18,0.339622642,soil18,K_18,soil,7.031002461,0.908226112,20.27220644,214,0.988421018,217.2727273,,18
+DC-K3,DC,K,K3,DC K3,8303,7317,control,control near,control,soil,DC_control,DC_control,medium,DC_18,18,0.339622642,control near18,K_18,control,6.934326659,0.904634413,19.74438464,203,0.985720925,203.75,,18
+DC-K4,DC,K,K4,DC K4,7520,6218,control,control far,control,soil,DC_control,DC_control,medium,DC_18,18,0.339622642,control far18,K_18,control,6.474316538,0.926399863,15.408994,127,0.985456753,127,,18
+DC-L1,DC,L,L1,DC L1,49490,46037,sample,ants,ants,ants,DC_ants,DC_sample,high,DC_14,14,0.264150943,ants14,L_14,ants,0.057439212,0.016603656,3.530837746,11,0.009372094,14.75,,14
+DC-L2,DC,L,L2,DC L2,7767,6898,sample,soil,soil,soil,DC_soil,DC_sample,high,DC_14,14,0.264150943,soil14,L_14,soil,6.58215924,0.905786788,13.90680015,154,0.985139715,154.6666667,,14
+DC-L4,DC,L,L4,DC L4,6284,5482,control,control far,control,soil,DC_control,DC_control,high,DC_14,14,0.264150943,control far14,L_14,control,6.59641151,0.923925214,15.28014704,141,0.986651107,141,,14
+DC-M1,DC,M,M1,DC M1,23597,20949,sample,seeds,seeds,seeds,DC_seeds,DC_sample,low,DC_36,36,0.679245283,seeds36,M_36,seeds,1.283046519,0.328406053,4.281293038,15,0.486837662,15,,36
+DC-M2,DC,M,M2,DC M2,32215,29916,sample,ants,ants,ants,DC_ants,DC_sample,low,DC_36,36,0.679245283,ants36,M_36,ants,0.714313169,0.135148308,7.108206531,39,0.18454729,45.875,,36
+DC-M4,DC,M,M4,DC M4,6699,5812,sample,soil,soil,soil,DC_soil,DC_sample,low,DC_36,36,0.679245283,soil36,M_36,soil,6.216884518,0.897001894,14.37099988,122,0.98125352,122.1428571,,36
+DC-M5,DC,M,M5,DC M5,6376,5426,control,control far,control,soil,DC_control,DC_control,low,DC_36,36,0.679245283,control far36,M_36,control,6.463988998,0.929509135,12.8774289,124,0.985084864,124,,36
+DC-N1,DC,N,N1,DC N1,49314,45122,sample,ants,ants,ants,DC_ants,DC_sample,low,DC_53,53,1,ants53,N_53,ants,0.217487933,0.093666954,3.042250674,5,0.063189366,6,,53
+DC-N2,DC,N,N2,DC N2,8190,7027,sample,soil,soil,soil,DC_soil,DC_sample,low,DC_53,53,1,soil53,N_53,soil,6.569063988,0.897176796,16.83307586,160,0.985048042,161.3125,,53
+DC-N3,DC,N,N3,DC N3,7796,6679,control,control near,control,soil,DC_control,DC_control,low,DC_53,53,1,control near53,N_53,control,6.616253484,0.905866936,16.41297745,158,0.985336508,158.375,,53
+DC-N4,DC,N,N4,DC N4,6713,5803,control,control far,control,soil,DC_control,DC_control,low,DC_53,53,1,control far53,N_53,control,7.305989076,0.938120247,20.69940414,221,0.991463969,221,,53
+DC-O1,DC,O,O1,DC O1,6569,5564,sample,brood,brood,ants,DC_brood,DC_sample,low,DC_39,39,0.735849057,brood39,O_39,brood,6.025593404,0.915053564,10.60130471,96,0.979889723,96,,39
+DC-O2,DC,O,O2,DC O2,22507,19438,sample,reproductives,reproductives,ants,DC_reproductives,DC_sample,low,DC_39,39,0.735849057,reproductives39,O_39,reproductives,5.764216314,0.846763006,11.03970398,112,0.962374571,112.5,,39
+DC-O3,DC,O,O3,DC O3,47257,44090,sample,ants,ants,ants,DC_ants,DC_sample,low,DC_39,39,0.735849057,ants39,O_39,ants,0.171389791,0.04954276,4.237108407,11,0.038132078,13,,39
+DC-O4,DC,O,O4,DC O4,7846,6604,sample,soil,soil,soil,DC_soil,DC_sample,low,DC_39,39,0.735849057,soil39,O_39,soil,6.081092365,0.885119293,12.62473702,117,0.977013617,117,,39
+DC-O5,DC,O,O5,DC O5,7529,6154,control,control near,control,soil,DC_control,DC_control,low,DC_39,39,0.735849057,control near39,O_39,control,6.276157729,0.908680635,13.30597998,120,0.982240539,120,,39
+DC-P1,DC,P,P1,DC P1,14415,12535,sample,brood,brood,ants,DC_brood,DC_sample,low,DC_49,49,0.924528302,brood49,P_49,brood,7.191215308,0.909487139,19.41667108,240,0.989712698,247.7727273,,49
+DC-P2,DC,P,P2,DC P2,38310,34447,sample,ants,ants,ants,DC_ants,DC_sample,low,DC_49,49,0.924528302,ants49,P_49,ants,0.385331265,0.115996269,3.537116277,10,0.105766389,13,,49
+DC-P3,DC,P,P3,DC P3,8146,6691,control,control near,control,soil,DC_control,DC_control,low,DC_49,49,0.924528302,control near49,P_49,control,6.483801985,0.909460596,14.08913862,140,0.983789211,140,,49
+DC-P4,DC,P,P4,DC P4,8856,7626,sample,soil,soil,soil,DC_soil,DC_sample,low,DC_49,49,0.924528302,soil49,P_49,soil,6.621889549,0.895779925,17.1280585,168,0.98376507,168.2142857,,49
+DC-P5,DC,P,P5,DC P5,7928,6556,control,control far,control,soil,DC_control,DC_control,low,DC_49,49,0.924528302,control far49,P_49,control,6.663995221,0.921865039,14.94859456,150,0.986530709,150,,49
+DC-Q1,DC,Q,Q1,DC Q1,16638,13674,sample,brood,brood,ants,DC_brood,DC_sample,low,DC_49,49,0.924528302,brood49,Q_49,brood,5.933507335,0.786218406,18.47888175,187,0.962013836,196.5625,,49
+DC-Q2,DC,Q,Q2,DC Q2,16618,8974,sample,reproductives,reproductives,ants,DC_reproductives,DC_sample,low,DC_49,49,0.924528302,reproductives49,Q_49,reproductives,5.414434223,0.737676413,17.55210534,162,0.929269566,164.1538462,,49
+DC-Q3,DC,Q,Q3,DC Q3,45174,40859,sample,ants,ants,ants,DC_ants,DC_sample,low,DC_49,49,0.924528302,ants49,Q_49,ants,0.980763406,0.618792814,2.611493848,3,0.484679514,3,,49
+DC-Q4,DC,Q,Q4,DC Q4,10094,8846,sample,soil,soil,soil,DC_soil,DC_sample,low,DC_49,49,0.924528302,soil49,Q_49,soil,6.636305671,0.874065621,19.75685139,193,0.981777282,194.1052632,,49
+DC-Q5,DC,Q,Q5,DC Q5,8605,7218,control,control near,control,soil,DC_control,DC_control,low,DC_49,49,0.924528302,control near49,Q_49,control,6.769424609,0.911551747,18.84671256,172,0.986459203,172.1,,49
+DC-Q6,DC,Q,Q6,DC Q6,8294,7053,control,control far,control,soil,DC_control,DC_control,low,DC_49,49,0.924528302,control far49,Q_49,control,6.589000294,0.903268384,15.93107388,157,0.984257051,158.25,,49
+DC-R1,DC,R,R1,DC R1,15349,8780,sample,reproductives,reproductives,ants,DC_reproductives,DC_sample,low,DC_44,44,0.830188679,reproductives44,R_44,reproductives,4.825388585,0.752862266,12.11775904,85,0.929220368,85,,44
+DC-R2,DC,R,R2,DC R2,16615,12800,sample,brood,brood,ants,DC_brood,DC_sample,low,DC_44,44,0.830188679,brood44,R_44,brood,4.697812818,0.641608707,17.54192759,160,0.88756222,167.1578947,,44
+DC-R3,DC,R,R3,DC R3,40633,35854,sample,ants,ants,ants,DC_ants,DC_sample,low,DC_44,44,0.830188679,ants44,R_44,ants,0.824074965,0.293541425,3.205469759,7,0.345207505,10,,44
+DC-R5,DC,R,R5,DC R5,6744,5834,control,control near,control,soil,DC_control,DC_control,low,DC_44,44,0.830188679,control near44,R_44,control,6.484705232,0.90192816,15.49968555,146,0.983537414,146.2,,44
+DC-R6,DC,R,R6,DC R6,9937,8666,control,control far,control,soil,DC_control,DC_control,low,DC_44,44,0.830188679,control far44,R_44,control,6.973110222,0.907189195,20.28663356,206,0.987600845,207.6470588,,44
+E-A1,Eggplant,A,A1,E A1,31143,28102,sample,ants,ants,ants,Eggplant_ants,Eggplant_sample,medium,Eggplant_30,30,0.6,ants30,A_30,ants,0.712390925,0.449468631,2.74856671,3,0.310023954,3,,30
+E-A3,Eggplant,A,A3,E A3,22130,19507,control,control near,control,soil,Eggplant_control,Eggplant_control,medium,Eggplant_30,30,0.6,control near30,A_30,control,7.782265259,0.918181928,25.46210819,356,0.993244728,369.5384615,,30
+E-A4,Eggplant,A,A4,E A4,8990,7780,control,control far,control,soil,Eggplant_control,Eggplant_control,medium,Eggplant_30,30,0.6,control far30,A_30,control,6.909043259,0.918320777,17.47695492,184,0.987987554,185.1111111,,30
+E-B1,Eggplant,B,B1,E B1,42485,39335,sample,ants,ants,ants,Eggplant_ants,Eggplant_sample,medium,Eggplant_29,29,0.58,ants29,B_29,ants,0.323896049,0.07767431,4.002727167,18,0.06457547,21,,29
+E-B2,Eggplant,B,B2,E B2,8744,7721,sample,soil,soil,soil,Eggplant_soil,Eggplant_sample,medium,Eggplant_29,29,0.58,soil29,B_29,soil,6.826049836,0.90541266,20.25174513,186,0.987079833,186.4615385,,29
+E-B3,Eggplant,B,B3,E B3,8687,7107,control,control near,control,soil,Eggplant_control,Eggplant_control,medium,Eggplant_29,29,0.58,control near29,B_29,control,6.367271676,0.92348658,13.33211866,119,0.984747811,119,,29
+E-B4,Eggplant,B,B4,E B4,7205,6122,control,control far,control,soil,Eggplant_control,Eggplant_control,medium,Eggplant_29,29,0.58,control far29,B_29,control,6.605742621,0.915028178,17.18145511,149,0.985670199,149,,29
+E-C1,Eggplant,C,C1,E C1,26313,24480,sample,ants,ants,ants,Eggplant_ants,Eggplant_sample,medium,Eggplant_25,25,0.5,ants25,C_25,ants,0.700287498,0.150798705,5.220222959,25,0.170242088,27.5,,25
+E-C2,Eggplant,C,C2,E C2,9641,8361,sample,soil,soil,soil,Eggplant_soil,Eggplant_sample,medium,Eggplant_25,25,0.5,soil25,C_25,soil,7.03194457,0.922578951,19.54648706,197,0.989991539,198.8666667,,25
+E-C3,Eggplant,C,C3,E C3,8531,7434,control,control near,control,soil,Eggplant_control,Eggplant_control,medium,Eggplant_25,25,0.5,control near25,C_25,control,6.70493271,0.900844231,19.84616926,174,0.985974403,174.0769231,,25
+E-C4,Eggplant,C,C4,E C4,10019,8553,control,control far,control,soil,Eggplant_control,Eggplant_control,medium,Eggplant_25,25,0.5,control far25,C_25,control,7.006592102,0.926523075,17.78706227,189,0.989812317,190.5,,25
+E-D1,Eggplant,D,D1,E D1,10911,9412,sample,brood,brood,ants,Eggplant_brood,Eggplant_sample,medium,Eggplant_28,28,0.56,brood28,D_28,brood,4.755942389,0.660577615,17.65321422,147,0.847467105,158.3333333,,28
+E-D1-1,Eggplant,D,D1,E D1,18968,15999,sample,brood,brood,ants,Eggplant_brood,Eggplant_sample,medium,Eggplant_28,28,0.56,brood28,D_28,brood,6.943752294,0.887204916,17.9208412,227,0.986183724,229.037037,,28
+E-D3,Eggplant,D,D3,E D3,9750,8605,sample,soil,soil,soil,Eggplant_soil,Eggplant_sample,medium,Eggplant_28,28,0.56,soil28,D_28,soil,6.947089146,0.91410116,18.81785725,194,0.98855318,194.8823529,,28
+E-D4,Eggplant,D,D4,E D4,7126,6256,control,control near,control,soil,Eggplant_control,Eggplant_control,medium,Eggplant_28,28,0.56,control near28,D_28,control,6.537188309,0.92374716,15.62777899,135,0.986493275,135.0909091,,28
+E-E1,Eggplant,E,E1,E E1,13647,11509,control,control near,control,soil,Eggplant_control,Eggplant_control,low,Eggplant_40,40,0.8,control near40,E_40,control,7.304341913,0.926636138,19.098376,236,0.991504764,245.75,,40
+E-E2,Eggplant,E,E2,E E2,8860,7569,sample,soil,soil,soil,Eggplant_soil,Eggplant_sample,low,Eggplant_40,40,0.8,soil40,E_40,soil,6.617726777,0.913050905,15.02345462,152,0.985183871,152,,40
+E-E3,Eggplant,E,E3,E E3,10111,8696,control,control far,control,soil,Eggplant_control,Eggplant_control,low,Eggplant_40,40,0.8,control far40,E_40,control,6.807136024,0.904775698,16.4162514,184,0.985768596,186.3333333,,40
+E-F1,Eggplant,F,F1,E F1,41553,36833,sample,ants,ants,ants,Eggplant_ants,Eggplant_sample,low,Eggplant_46,46,0.92,ants46,F_46,ants,0.355477877,0.153095989,2.954318237,5,0.118364782,6,,46
+E-F2,Eggplant,F,F2,E F2,8807,7621,sample,soil,soil,soil,Eggplant_soil,Eggplant_sample,low,Eggplant_46,46,0.92,soil46,F_46,soil,6.761797677,0.908484349,17.69675218,174,0.986479066,179.1428571,,46
+E-F3,Eggplant,F,F3,E F3,9647,7772,control,control near,control,soil,Eggplant_control,Eggplant_control,low,Eggplant_46,46,0.92,control near46,F_46,control,6.51906182,0.910499856,13.59317399,143,0.983818699,144,,46
+E-F4,Eggplant,F,F4,E F4,6884,6009,control,control far,control,soil,Eggplant_control,Eggplant_control,low,Eggplant_46,46,0.92,control far46,F_46,control,6.489909807,0.914325229,14.16847744,137,0.985117255,137,,46
+E-G1,Eggplant,G,G1,E G1,41100,36482,sample,ants,ants,ants,Eggplant_ants,Eggplant_sample,low,Eggplant_50,50,1,ants50,G_50,ants,0.328642532,0.207350352,2.620884994,3,0.109963205,3,,50
+E-G2,Eggplant,G,G2,E G2,9144,7967,sample,soil,soil,soil,Eggplant_soil,Eggplant_sample,low,Eggplant_50,50,1,soil50,G_50,soil,6.76606498,0.906055487,16.98059142,177,0.98605752,177.8571429,,50
+E-G3,Eggplant,G,G3,E G3,10873,9452,control,control near,control,soil,Eggplant_control,Eggplant_control,low,Eggplant_50,50,1,control near50,G_50,control,7.000114424,0.909053857,18.96988575,208,0.98847648,213.5,,50
+E-G4,Eggplant,G,G4,E G4,8901,7603,control,control far,control,soil,Eggplant_control,Eggplant_control,low,Eggplant_50,50,1,control far50,G_50,control,6.588523044,0.906662526,16.22934828,154,0.985231236,154.6,,50
+E-H1,Eggplant,H,H1,E H1,31315,28717,sample,ants,ants,ants,Eggplant_ants,Eggplant_sample,medium,Eggplant_23,23,0.46,ants23,H_23,ants,1.336957965,0.843526559,2.620884994,3,0.564644531,3,,23
+E-H3,Eggplant,H,H3,E H3,7823,6783,control,control near,control,soil,Eggplant_control,Eggplant_control,medium,Eggplant_23,23,0.46,control near23,H_23,control,6.634789032,0.931991003,14.7813104,139,0.987008939,139,,23
+E-I1,Eggplant,I,I1,E I1,20887,18410,sample,seeds,seeds,seeds,Eggplant_seeds,Eggplant_sample,high,Eggplant_12,12,0.24,seeds12,I_12,seeds,1.86158678,0.391510163,6.105330566,27,0.642167059,32,,12
+E-I2,Eggplant,I,I2,E I2,35442,32361,sample,ants,ants,ants,Eggplant_ants,Eggplant_sample,high,Eggplant_12,12,0.24,ants12,I_12,ants,0.733934644,0.316088446,3.01319322,5,0.313825351,5,,12
+E-I3,Eggplant,I,I3,E I3,31049,27582,sample,soil,soil,soil,Eggplant_soil,Eggplant_sample,high,Eggplant_12,12,0.24,soil12,I_12,soil,0.689306679,0.344653339,2.914273622,4,0.293476265,4,,12
+E-I3-1,Eggplant,I,I3,E I3,16068,13955,sample,ants,ants,ants,Eggplant_ants,Eggplant_sample,high,Eggplant_12,12,0.24,ants12,I_12,ants,7.330077039,0.911823723,23.85153561,263,0.990956556,273,,12
+E-I4,Eggplant,I,I4,E I4,8368,7172,control,control near,control,soil,Eggplant_control,Eggplant_control,high,Eggplant_12,12,0.24,control near12,I_12,control,6.610799268,0.914506166,18.09201208,150,0.986212143,150.1,,12
+E-I5,Eggplant,I,I5,E I5,6749,5742,control,control far,control,soil,Eggplant_control,Eggplant_control,medium,Eggplant_27,27,0.54,control far27,I_27,control,6.586952784,0.904130285,17.90194481,156,0.985288226,156,,27
+E-J2,Eggplant,J,J2,E J2,8185,7225,sample,soil,soil,soil,Eggplant_soil,Eggplant_sample,medium,Eggplant_27,27,0.54,soil27,J_27,soil,6.642906363,0.933131247,14.89161611,139,0.987275862,139,,27
+E-J3,Eggplant,J,J3,E J3,10021,8886,control,control near,control,soil,Eggplant_control,Eggplant_control,medium,Eggplant_27,27,0.54,control near27,J_27,control,6.834207195,0.899248102,18.90239658,194,0.986485789,194.7894737,,27
+E-J4,Eggplant,J,J4,E J4,6912,5886,control,control far,control,soil,Eggplant_control,Eggplant_control,medium,Eggplant_27,27,0.54,control far27,J_27,control,6.01404831,0.890325458,12.86713885,108,0.97608909,108,,27
+E-K1,Eggplant,K,K1,E K1,34031,30504,sample,ants,ants,ants,Eggplant_ants,Eggplant_sample,high,Eggplant_13,13,0.26,ants13,K_13,ants,0.036580792,0.036580792,2.474367543,2,0.007709136,2,,13
+E-K2,Eggplant,K,K2,E K2,8204,7133,sample,soil,soil,soil,Eggplant_soil,Eggplant_sample,high,Eggplant_13,13,0.26,soil13,K_13,soil,6.538282517,0.89519151,17.27482988,158,0.983433517,159.9090909,,13
+E-K3,Eggplant,K,K3,E K3,6735,5887,control,control near,control,soil,Eggplant_control,Eggplant_control,high,Eggplant_13,13,0.26,control near13,K_13,control,6.621755357,0.907758688,16.42845498,157,0.985537426,157,,13
+E-L1,Eggplant,L,L1,E L1,10405,8961,sample,brood,brood,ants,Eggplant_brood,Eggplant_sample,high,Eggplant_15,15,0.3,brood15,L_15,brood,6.336428742,0.899499465,12.04934216,132,0.982199285,133.2,,15
+E-L2,Eggplant,L,L2,E L2,19865,18009,sample,ants,ants,ants,Eggplant_ants,Eggplant_sample,high,Eggplant_15,15,0.3,ants15,L_15,ants,0.293470511,0.12639087,3.005236442,5,0.092716046,5,,15
+E-L3,Eggplant,L,L3,E L3,13329,11842,sample,soil,soil,soil,Eggplant_soil,Eggplant_sample,high,Eggplant_15,15,0.3,soil15,L_15,soil,7.047896702,0.905741022,17.24332282,220,0.988244088,226.5,,15
+E-M1,Eggplant,M,M1,E M1,37211,34157,sample,ants,ants,ants,Eggplant_ants,Eggplant_sample,high,Eggplant_0,0,0,ants0,M_0,ants,1.111045572,0.195867818,7.561491026,51,0.282990642,63,,0
+E-M2-1,Eggplant,M,M2,E M2,6847,5988,control,entrance soil,entrance soil,soil,Eggplant_entrance soil,Eggplant_control,high,Eggplant_0,0,0,entrance soil0,M_0,soil,6.623969196,0.908062177,19.3405466,157,0.986349653,157,,0
+E-M3,Eggplant,M,M3,E M3,7453,6668,control,soil control near mound,control,soil,Eggplant_control,Eggplant_control,high,Eggplant_0,0,0,soil control near mound0,M_0,control,5.655796775,0.807970968,15.9624183,128,0.948314291,129.25,,0
+E-M4,Eggplant,M,M4,E M4,8763,7620,control,soil contol off mount,control,soil,Eggplant_control,Eggplant_control,high,Eggplant_0,0,0,soil contol off mount0,M_0,control,6.761703323,0.900624437,21.56032873,182,0.986045755,189.8571429,,0
