@@ -1,0 +1,129 @@
+# QIIME2 Analysis
+
+##### 16S rRNA amplicon sequencing run #####create .qza file from demultiplexed samples (make sure to rename folder with files: casava-18-paired-end-demultiplexed)
+qiime tools import \
+ --type 'SampleData[PairedEndSequencesWithQuality]' \
+ --input-path casava-18-paired-end-demultiplexed \
+ --input-format CasavaOneEightSingleLanePerSampleDirFmt \
+ --output-path demux-paired-end.qza
+  
+#summarize samples, use view.qiime2.org to view any .qzv file
+qiime demux summarize \
+  --i-data demux-paired-end.qza \
+  --o-visualization demux.qzv
+
+# use QIIME 2 visualizers to view summary of demultiplexing results to see how many sequences were obtained per sample, and to see a summary of the distribution of sequence qualities at each position in sequence data
+
+#sequence quality control and denoise samples - Used DaDa2 
+
+qiime dada2 denoise-paired \
+--i-demultiplexed-seqs demux-paired-end.qza \
+--p-trim-left-f 5 \
+--p-trim-left-r 5 \
+--p-trunc-len-f 238 \
+--p-trunc-len-r 238 \
+--o-table table.qza \
+--o-representative-sequences rep-seqs.qza \
+--o-denoising-stats denoising-stats.qza
+  
+##### ABOVE STEP TOOK ~ over 30 mins
+
+# create feature table and feature data 
+#verify metadata tsv file with https://keemei.qiime2.org/
+qiime feature-table summarize \
+  --i-table table.qza \
+  --o-visualization table.qzv\
+  --m-sample-metadata-file sample-metadata.tsv \
+
+qiime feature-table tabulate-seqs \
+--i-data rep-seqs.qza \
+--o-visualization rep-seqs.qzv
+
+qiime metadata tabulate \
+  --m-input-file denoising-stats.qza \
+  --o-visualization denoising-stats.qzv
+  ————————————————————————————————————
+# generate a phylogenetic tree of bacterial species for diversity analyses
+qiime phylogeny align-to-tree-mafft-fasttree \
+  --i-sequences rep-seqs.qza \
+  --o-alignment aligned-rep-seqs.qza \
+  --o-masked-alignment masked-aligned-rep-seqs.qza \
+  --o-tree unrooted-tree.qza \
+  --o-rooted-tree rooted-tree.qza
+  ———————————————————————————————————— 
+choose sampling depth based on viewing the table.qzv
+#  This sampling depth of 3618 ended up retaining 955,152 features(25.73%) in 264 samples (92.65%) Value needs to be as high as possible (to retain more sequences per sample) while excluding as few samples as possible	
+qiime diversity core-metrics-phylogenetic \
+  --i-phylogeny rooted-tree.qza \
+  --i-table table.qza \
+  --p-sampling-depth 3618 \
+  --m-metadata-file sample-metadata.tsv \
+  --output-dir core-metrics-results
+
+### Test for associations between categorical metadata columns and alpha diversity data. Faith phylogenetic diversity (measure of community richness) and evenness metrics
+
+ #alpha diversity with faith pd
+ qiime diversity alpha-group-significance \
+  --i-alpha-diversity core-metrics-results/faith_pd_vector.qza \
+  --m-metadata-file sample-metadata.tsv \
+  --o-visualization core-metrics-results/faith-pd-group-significance.qzv
+
+#alpha diversity with evenness (can do shannon, otu richness also)
+qiime diversity alpha-group-significance \
+  --i-alpha-diversity core-metrics-results/evenness_vector.qza \
+  --m-metadata-file sample-metadata.tsv \
+  --o-visualization core-metrics-results/evenness-group-significance.qzv
+
+#alpha diversity with shannon
+qiime diversity alpha-group-significance \
+--i-alpha-diversity core-metrics-results/shannon_vector.qza \
+ --m-metadata-file sample-metadata.tsv \
+--o-visualization core-metrics-results/shannon-group-significance.qzv
+
+#alpha diversity with simpson
+qiime diversity alpha --i-table core-metrics-results/rarefied_table.qza --p-metric simpson --o-alpha-diversity simpson.qza
+
+qiime diversity alpha-group-significance \
+--i-alpha-diversity simpson.qza \
+--m-metadata-file sample-metadata.tsv \
+--o-visualization core-metrics-results/simpson-group-significance.qzv
+
+#alpha diversity with chao1
+qiime diversity alpha --i-table core-metrics-results/rarefied_table.qza --p-metric chao1 --o-alpha-diversity chao1.qza
+
+qiime diversity alpha-group-significance \
+--i-alpha-diversity chao1.qza \
+--m-metadata-file sample-metadata.tsv \
+--o-visualization core-metrics-results/chao1-group-significance.qzv
+
+#alpha diversity with pielou
+qiime diversity alpha --i-table core-metrics-results/rarefied_table.qza --p-metric pielou_e --o-alpha-diversity pielou_e.qza
+
+qiime diversity alpha-group-significance \
+--i-alpha-diversity pielou_e.qza \
+--m-metadata-file sample-metadata.tsv \
+--o-visualization core-metrics-results/pielou_e-group-significance.qzv
+
+#alpha diversity with otu 
+qiime diversity alpha-group-significance \
+--i-alpha-diversity core-metrics-results/observed_features_vector.qza \
+--m-metadata-file sample-metadata.tsv \
+--o-visualization core-metrics-results/observed-group-significance.qzv
+
+#Taxonomic analysis 
+need to download this classifier from https://docs.qiime2.org/2022.11/data-resources/
+qiime feature-classifier classify-sklearn \
+--i-classifier silva-138-99-515-806-nb-classifier.qza \
+--i-reads rep-seqs.qza \
+--o-classification taxonomy.qza
+
+qiime metadata tabulate \
+  --m-input-file taxonomy.qza \
+  --o-visualization taxonomy.qzv
+  
+#taxa barplot
+ qiime taxa barplot \
+  --i-table table.qza \
+  --i-taxonomy taxonomy.qza \
+  --m-metadata-file sample-metadata.tsv \
+  --o-visualization taxa-bar-plots.qzv
