@@ -18,5 +18,5 @@ This code takes sequencing data from the NCBI reposetory found at NCBI BioProjec
 
 4. updated_clean_sample_metadata_diversity_metrics_239_1.csv - Metadata for the 239 samples included in the data that is analyzed by "Nest_microbes_code.R".
 
-5. data_descriptions - a description of all the columns in "updated_clean_sample_metadata_diversity_metrics_239_1.csv"
+5. data_description - a description of all the columns in "updated_clean_sample_metadata_diversity_metrics_239_1.csv"
 
