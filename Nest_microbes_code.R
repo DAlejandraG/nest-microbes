@@ -32,8 +32,8 @@ library("patchwork")
 ############################# Load data files, set working directory, create/edit objects needed:
 # load metadata file 
 metadata <- read.csv("updated_clean_sample_metadata_diversity_metrics_239_1.csv")
-# convert Fig3_sample column in the metadata dataframe into a factor with the specified levels
-metadata$Fig3_Sample = factor(metadata$Fig3_Sample, levels=c("ants", "reproductives", "brood", "seeds", "soil"))
+# convert Fig4_sample column in the metadata dataframe into a factor with the specified levels
+metadata$Fig4_Sample = factor(metadata$Fig4_Sample, levels=c("ants", "reproductives", "brood", "seeds", "soil"))
 
 # Import data from QIIME 2 artifacts into a phyloseq object for microbial community/diversity analysis
 phy <- qza_to_phyloseq("table.qza", "rooted-tree.qza", "taxonomy.qza","updated_clean_sample_metadata_diversity_metrics_239_1.tsv")
@@ -111,50 +111,50 @@ phy_rel_total= phy_rel_total + labs(
       legend.title = element_text(size = 20),
       legend.text = element_text(size = 15))
 
-##### run models - LM: diversity ~ sample type (use Fig3_Sample column) ####
+##### run models - LM: diversity ~ sample type (use Fig4_Sample column) ####
 ############################################################################
 # shannon
-lmShannon = lm(shannon ~ Fig3_Sample, data = metadata)
+lmShannon = lm(shannon ~ Fig4_Sample, data = metadata)
 check_model(lmShannon)
 summary(lmShannon)
 Anova(lmShannon)
 
 # faith_pd
-lmFaith = lm(faith_pd ~ Fig3_Sample, data = metadata)
+lmFaith = lm(faith_pd ~ Fig4_Sample, data = metadata)
 check_model(lmFaith)
 summary(lmFaith)
 Anova(lmFaith)
 
 # pielou_evenness
-lmPE = lm(pielou_evenness ~ Fig3_Sample, data = metadata)
+lmPE = lm(pielou_evenness ~ Fig4_Sample, data = metadata)
 check_model(lmPE)
 summary(lmPE)
 Anova(lmPE)
 
 # observed
-lmObserved = lm(observed_otus ~ Fig3_Sample, data = metadata)
+lmObserved = lm(observed_otus ~ Fig4_Sample, data = metadata)
 check_model(lmObserved)
 summary(lmObserved)
 Anova(lmObserved)
  
 ########## post hoc tukey test #############################
 #################################################################
-aovShannon = aov(shannon ~ Fig3_Sample, data = metadata)
+aovShannon = aov(shannon ~ Fig4_Sample, data = metadata)
 check_model(aovShannon)
 summary(aovShannon)
 TukeyHSD(aovShannon)
 
-aovFaith = aov(faith_pd ~ Fig3_Sample, data = metadata)
+aovFaith = aov(faith_pd ~ Fig4_Sample, data = metadata)
 check_model(aovFaith)
 summary(aovFaith)
 TukeyHSD(aovFaith)
 
-aovPE = aov(pielou_evenness ~ Fig3_Sample, data = metadata)
+aovPE = aov(pielou_evenness ~ Fig4_Sample, data = metadata)
 check_model(aovPE)
 summary(aovPE)
 TukeyHSD(aovPE)
 
-aovObserved = aov(observed_otus ~ Fig3_Sample, data = metadata)
+aovObserved = aov(observed_otus ~ Fig4_Sample, data = metadata)
 check_model(aovObserved)
 summary(aovObserved)
 TukeyHSD(aovObserved)
@@ -166,11 +166,11 @@ sample_data1 = as(sample_data(pseq), "data.frame")
 bray_dist1 = distance(pseq, method = "bray")
 
 # Perform PERMANOVA
-permanova_result1 = adonis2(bray_dist1 ~ Fig3_Sample, data = sample_data1, permutations = 999)
+permanova_result1 = adonis2(bray_dist1 ~ Fig4_Sample, data = sample_data1, permutations = 999)
 print(permanova_result1)
 
 # perform pairwise permanova tests
-pairwise_result1 = pairwise.adonis(bray_dist1, sample_data1$Fig3_Sample)
+pairwise_result1 = pairwise.adonis(bray_dist1, sample_data1$Fig4_Sample)
 print(pairwise_result1)
 
 ##########################################################################
@@ -180,13 +180,13 @@ print(pairwise_result1)
 max_value = max(metadata$shannon) # Determine the maximum value of the y-axis to place the labels uniformly
 label_y_position = max_value + 1  
 labels = data.frame(
-  Fig3_Sample = c("ants", "reproductives", "brood", "seeds", "soil"),
+  Fig4_Sample = c("ants", "reproductives", "brood", "seeds", "soil"),
   shannon = rep(label_y_position, 5),  # Use the same y position for all labels 
   label = c("A", "B", "B", "C", "D")
 )
-Shannon <- ggboxplot(metadata, x = "Fig3_Sample", y = "shannon", color = "Fig3_Sample") + scale_x_discrete(labels = c("Ants", "Repro", "Brood", "Seeds", "Soil")) + ggtitle("Shannon")
+Shannon <- ggboxplot(metadata, x = "Fig4_Sample", y = "shannon", color = "Fig4_Sample") + scale_x_discrete(labels = c("Ants", "Repro", "Brood", "Seeds", "Soil")) + ggtitle("Shannon")
 Shannon = Shannon + geom_boxplot(fill = c( "darkviolet", "plum1", "mediumorchid1", "olivedrab3", "sienna")) + theme_mine() + ggtitle("Shannon") + theme(plot.title = element_text(hjust = 0.5, face = "bold", size = 35), legend.position = "none") + theme(axis.title.x = element_blank()) +theme(axis.text.x=element_text(size=30, angle = 0), axis.text.y = element_text(size = 25, angle = 90), axis.title.y = element_text(size = 30)) + 
-  geom_text(data = labels, aes(x = Fig3_Sample, y = shannon, label = label), 
+  geom_text(data = labels, aes(x = Fig4_Sample, y = shannon, label = label), 
             vjust = -0.5, size = 15) + ylim(NA, label_y_position + 1) + # set y-axis limits 
             ylab("Shannon")  
   Shannon
@@ -196,13 +196,13 @@ Shannon = Shannon + geom_boxplot(fill = c( "darkviolet", "plum1", "mediumorchid1
 max_value = max(metadata$faith_pd) # Determine the maximum value of the y-axis to place the labels uniformly
 label_y_position = max_value + 1  
 labels = data.frame(
-  Fig3_Sample = c("ants", "reproductives", "brood", "seeds", "soil"),
+  Fig4_Sample = c("ants", "reproductives", "brood", "seeds", "soil"),
   faith_pd = rep(label_y_position, 5),  # Use the same y position for all labels 
   label = c("A", "B", "BC", "D", "C")
 )
-faith_pd <- ggboxplot(metadata, x = "Fig3_Sample", y = "faith_pd", color = "Fig3_Sample") + scale_x_discrete(labels = c("Ants", "Repro", "Brood", "Seeds", "Soil")) + ggtitle("Faith PD")
+faith_pd <- ggboxplot(metadata, x = "Fig4_Sample", y = "faith_pd", color = "Fig4_Sample") + scale_x_discrete(labels = c("Ants", "Repro", "Brood", "Seeds", "Soil")) + ggtitle("Faith PD")
 faith_pd = faith_pd + geom_boxplot(fill = c( "darkviolet", "plum1", "mediumorchid1", "olivedrab3", "sienna")) + theme_mine() + ggtitle("Faith PD") + theme(plot.title = element_text(hjust = 0.5, face = "bold", size = 35), legend.position = "none") + theme(axis.title.x = element_blank()) +theme(axis.text.x=element_text(size=30, angle = 0),axis.text.y = element_text(size = 25, angle = 90), axis.title.y = element_text(size = 30)) + 
-  geom_text(data = labels, aes(x = Fig3_Sample, y = faith_pd, label = label), 
+  geom_text(data = labels, aes(x = Fig4_Sample, y = faith_pd, label = label), 
             vjust = -0.5, size = 15) + ylim(NA, label_y_position + 2) + # set y-axis limits 
             ylab("Faith's PD")
 faith_pd
@@ -212,13 +212,13 @@ faith_pd
 max_value = max(metadata$pielou_evenness) # Determine the maximum value of the y-axis to place the labels uniformly
 label_y_position = max_value + 0.03  
 labels = data.frame(
-  Fig3_Sample = c("ants", "reproductives", "brood", "seeds", "soil"),
+  Fig4_Sample = c("ants", "reproductives", "brood", "seeds", "soil"),
   pielou_evenness = rep(label_y_position, 5),  # Use the same y position for all labels 
   label = c("A", "BC", "B", "D", "C")
 )
-Even <- ggboxplot(metadata, x = "Fig3_Sample", y = "pielou_evenness", color = "Fig3_Sample") + scale_x_discrete(labels = c("Ants", "Repro", "Brood", "Seeds", "Soil")) + ggtitle("Evenness")
+Even <- ggboxplot(metadata, x = "Fig4_Sample", y = "pielou_evenness", color = "Fig4_Sample") + scale_x_discrete(labels = c("Ants", "Repro", "Brood", "Seeds", "Soil")) + ggtitle("Evenness")
 Even = Even + geom_boxplot(fill = c( "darkviolet", "plum1", "mediumorchid1", "olivedrab3", "sienna")) + theme_mine() + ggtitle("Evenness") + theme(plot.title = element_text(hjust = 0.5, face = "bold", size = 35), legend.position = "none") + theme(axis.title.x = element_blank()) +theme(axis.text.x=element_text(size=30, angle = 0),axis.text.y = element_text(size = 25, angle = 90), axis.title.y = element_text(size = 30)) + 
-  geom_text(data = labels, aes(x = Fig3_Sample, y = pielou_evenness, label = label), 
+  geom_text(data = labels, aes(x = Fig4_Sample, y = pielou_evenness, label = label), 
             vjust = -0.5, size = 15) + ylim(NA, label_y_position + 0.07) + # set y-axis limits
             ylab("Pielou's evenness")
 Even
@@ -228,13 +228,13 @@ Even
 max_value = max(metadata$observed_otus) # Determine the maximum value of the y-axis to place the labels uniformly
 label_y_position = max_value + 25  
 labels = data.frame(
-  Fig3_Sample = c("ants", "reproductives", "brood", "seeds", "soil"),
+  Fig4_Sample = c("ants", "reproductives", "brood", "seeds", "soil"),
   observed_otus = rep(label_y_position, 5),  # Use the same y position for all labels 
   label = c("A", "BC", "BD", "C", "D")
 )
-Observed <- ggboxplot(metadata, x = "Fig3_Sample", y = "observed_otus", color = "Fig3_Sample") + scale_x_discrete(labels = c("Ants", "Repro", "Brood", "Seeds", "Soil")) + ggtitle("Observed ASVs")
+Observed <- ggboxplot(metadata, x = "Fig4_Sample", y = "observed_otus", color = "Fig4_Sample") + scale_x_discrete(labels = c("Ants", "Repro", "Brood", "Seeds", "Soil")) + ggtitle("Observed ASVs")
 Observed = Observed + geom_boxplot(fill = c( "darkviolet", "plum1", "mediumorchid1", "olivedrab3", "sienna")) + theme_mine() + ggtitle("Observed ASVs") + theme(plot.title = element_text(hjust = 0.5, face = "bold", size = 35), legend.position = "none") + theme(axis.title.x = element_blank()) +theme(axis.text.x=element_text(size=30, angle = 0),axis.text.y = element_text(size = 25, angle = 90), axis.title.y = element_text(size = 30)) + 
-  geom_text(data = labels, aes(x = Fig3_Sample, y = observed_otus, label = label), 
+  geom_text(data = labels, aes(x = Fig4_Sample, y = observed_otus, label = label), 
             vjust = -0.5, size = 15) + ylim(NA, label_y_position + 2) + # set y-axis limits
           ylab("Observed ASVs")
 Observed
@@ -252,12 +252,12 @@ total_phy = pseq %>%
   ) %>% 
   ord_plot(
     axes = c(1, 2),
-    colour = "Fig3_Sample", fill = "Fig3_Sample",
+    colour = "Fig4_Sample", fill = "Fig4_Sample",
     shape = "circle", alpha = 0.8,
     size = 2
   ) +
   ggplot2::stat_ellipse(
-    ggplot2::aes(colour = Fig3_Sample)
+    ggplot2::aes(colour = Fig4_Sample)
   )
 # add custom theme and color scales
 total_phy <- total_phy + theme_mine() + scale_colour_manual(values = c( "darkviolet", "plum1", "mediumorchid1", "olivedrab3", "sienna")) + guides(colour = guide_legend(title = "Sample Type"), fill = guide_legend(title = "Sample Type")) + 
