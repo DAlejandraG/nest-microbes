@@ -3,7 +3,7 @@ This repository contains the code and data files needed to reproduce the analysi
 
 **Code:**
 1. QIIME2_analysis is the QIIME2 code and functions used for this project. Please note that this file needs to be run in the command line for QIIME2, not in R.
-This code takes sequencing data from the NCBI reposetory found at NCBI BioProject record SUB14655354, https://www.ncbi.nlm.nih.gov/sra/PRJNA1147938 and outputs summary statistics of microbiome diversity, including the various alpha and beta diversity measures.
+This code takes sequencing data from the NCBI reposetory found at NCBI BioProject record SUB14655354, [https://www.ncbi.nlm.nih.gov/sra/PRJNA1147938](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1147938) and outputs summary statistics of microbiome diversity, including the various alpha and beta diversity measures.
 
 2. Nest_microbes_code.R is R code used to analyse data and produce figures for the manuscript. It requires the file "updated_clean_sample_metadata_diversity_metrics_239_1.csv"
 
