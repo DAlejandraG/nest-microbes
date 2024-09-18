@@ -1,0 +1,240 @@
+sample-id,Sample.ID,Nest,Chamber_Iden,sample.ID.on.tube,input_reads,filtered_reads,Control_Sample1,Samples,Sample_Type,Fig4_Sample,Depth,shannon,pielou_evenness,faith_pd,observed_otus,Chamber.Type.simple
+A-A4,Apple A4,Apple,A4,A A4,9747,8412,control far,control far,control,soil,5,6.933187592,0.922493945,18.76859661,183,NA
+A-B3,Apple B3,Apple,B3,A B3,10820,9667,control far,control far,control,soil,9,7.043586881,0.925894708,17.17468389,195,NA
+A-C4,Apple C4,Apple,C4,A C4,7623,6644,control far,control far,control,soil,11.5,6.606200022,0.915091538,14.59513949,149,NA
+A-D4,Apple D4,Apple,D4,A D4,8844,7713,control far,control far,control,soil,7,6.504109851,0.895046224,17.64107182,154,NA
+A-E4,Apple E4,Apple,E4,A E4,11827,10604,control far,control far,control,soil,27,6.892951257,0.902617531,16.62047628,199,NA
+A-F3,Apple F3,Apple,F3,A F3,14914,13246,control far,control far,control,soil,30,7.083063631,0.905741885,17.21283623,226,NA
+A-G4,Apple G4,Apple,G4,A G4,11773,10328,control far,control far,control,soil,12,7.065982399,0.910382756,20.38559158,217,NA
+A-H5,Apple H5,Apple,H5,A H5,13031,11408,control far,control far,control,soil,13,7.205719971,0.918453777,20.8428667,230,NA
+A-I3,Apple I3,Apple,I3,A I3,10663,9352,control far,control far,control,soil,22,7.095020494,0.916495608,18.77625922,214,NA
+B-B4,Banana B4,Banana,B4,B B4,8561,7659,control far,control far,control,soil,19,6.799203154,0.910493077,18.63714318,177,NA
+B-C4,Banana C4,Banana,C4,B C4,6389,5623,control far,control far,control,soil,27,6.273584503,0.890578295,14.5934697,132,NA
+B-D7,Banana D7,Banana,D7,B D7,10198,9107,control far,control far,control,soil,35,6.809893096,0.899606736,16.76792023,190,NA
+B-E5,Banana E5,Banana,E5,B E5,10400,9243,control far,control far,control,soil,34,6.958463125,0.907783194,16.36314875,203,NA
+B-F4,Banana F4,Banana,F4,B F4,10326,9302,control far,control far,control,soil,24,6.91719472,0.904935225,18.72385158,200,NA
+B-H5,Banana H5,Banana,H5,B H5,6614,5933,control far,control far,control,soil,26,6.574638594,0.908299388,14.0736592,151,NA
+B-I6,Banana I6,Banana,I6,B I6,9677,8077,control far,control far,control,soil,32,6.32394793,0.888327051,14.38947548,139,NA
+B-J6,Banana J6,Banana,J6,B J6,9647,8527,control far,control far,control,soil,20,6.807303623,0.908627483,17.6935282,180,NA
+B-L7,Banana L7,Banana,L7,B L7,7564,6756,control far,control far,control,soil,14,6.740540729,0.901656111,19.84691377,178,NA
+BA3,Banana A3,Banana,A3,B A3,8961,7861,control far,control far,control,soil,60,6.580282523,0.899820572,15.46154945,159,NA
+C-A4,Carrot A4,Carrot,A4,C A4,11025,9675,control far,control far,control,soil,40,6.392834528,0.855144794,17.20073743,178,NA
+C-B4,Carrot B4,Carrot,B4,C B4,11116,9935,control far,control far,control,soil,30,6.995004845,0.90201242,20.3167599,216,NA
+C-C5,Carrot C5,Carrot,C5,C C5,10248,8877,control far,control far,control,soil,38,6.749893119,0.898105734,16.8537796,183,NA
+C-D5,Carrot D5,Carrot,D5,C D5,14949,13184,control far,control far,control,soil,22,7.429353225,0.918024982,20.62226548,273,NA
+C-E4,Carrot E4,Carrot,E4,C E4,9106,8072,control far,control far,control,soil,34,6.72200225,0.903137617,17.77450935,174,NA
+C-F6,Carrot F6,Carrot,F6,C F6,6870,6017,control far,control far,control,soil,36,6.167733364,0.882531355,13.30088244,127,NA
+C-I6,Carrot I6,Carrot,I6,C I6,6592,5869,control far,control far,control,soil,26,6.388021672,0.893461204,16.64778436,142,NA
+C-J5,Carrot J5,Carrot,J5,C J5,8224,7089,control far,control far,control,soil,17,6.402255576,0.89169034,16.22001087,145,NA
+C-K4,Carrot K4,Carrot,K4,C K4,9822,8662,control far,control far,control,soil,6,7.007670421,0.91677162,19.48138556,200,NA
+DC-A3,DC A3,DC,A3,DC A3,11390,9899,control far,control far,control,soil,16,6.966035861,0.915700459,17.01878684,195,NA
+DC-B4,DC B4,DC,B4,DC B4,6857,5869,control far,control far,control,soil,28,6.463835881,0.91476851,14.51176568,134,NA
+DC-C4,DC C4,DC,C4,DC C4,9258,7887,control far,control far,control,soil,30,6.727901225,0.904941178,15.00438462,173,NA
+DC-D4,DC D4,DC,D4,DC D4,7764,6705,control far,control far,control,soil,25,6.506728458,0.901312726,15.15034571,149,NA
+DC-E4,DC E4,DC,E4,DC E4,8228,7034,control far,control far,control,soil,11,6.814792779,0.917660897,17.76911211,172,NA
+DC-G5,DC G5,DC,G5,DC G5,9182,7937,control far,control far,control,soil,13,7.131536101,0.915719739,21.61973113,221,NA
+DC-H4,DC H4,DC,H4,DC H4,11484,9722,control far,control far,control,soil,30,7.205406844,0.922140852,18.05677774,225,NA
+DC-J4,DC J4,DC,J4,DC J4,8622,7223,control far,control far,control,soil,19,6.642009764,0.931651857,14.30979851,140,NA
+DC-K4,DC K4,DC,K4,DC K4,7520,6218,control far,control far,control,soil,18,6.474316538,0.926399863,15.408994,127,NA
+DC-L4,DC L4,DC,L4,DC L4,6284,5482,control far,control far,control,soil,14,6.59641151,0.923925214,15.28014704,141,NA
+DC-M5,DC M5,DC,M5,DC M5,6376,5426,control far,control far,control,soil,36,6.463988998,0.929509135,12.8774289,124,NA
+DC-N4,DC N4,DC,N4,DC N4,6713,5803,control far,control far,control,soil,53,7.305989076,0.938120247,20.69940414,221,NA
+DC-P5,DC P5,DC,P5,DC P5,7928,6556,control far,control far,control,soil,49,6.663995221,0.921865039,14.94859456,150,NA
+DC-Q6,DC Q6,DC,Q6,DC Q6,8294,7053,control far,control far,control,soil,49,6.589000294,0.903268384,15.93107388,157,NA
+DC-R6,DC R6,DC,R6,DC R6,9937,8666,control far,control far,control,soil,44,6.973110222,0.907189195,20.28663356,206,NA
+E-A4,Eggplant A4,Eggplant,A4,E A4,8990,7780,control far,control far,control,soil,30,6.909043259,0.918320777,17.47695492,184,NA
+E-B4,Eggplant B4,Eggplant,B4,E B4,7205,6122,control far,control far,control,soil,29,6.605742621,0.915028178,17.18145511,149,NA
+E-C4,Eggplant C4,Eggplant,C4,E C4,10019,8553,control far,control far,control,soil,25,7.006592102,0.926523075,17.78706227,189,NA
+E-E3,Eggplant E3,Eggplant,E3,E E3,10111,8696,control far,control far,control,soil,40,6.807136024,0.904775698,16.4162514,184,NA
+E-F4,Eggplant F4,Eggplant,F4,E F4,6884,6009,control far,control far,control,soil,46,6.489909807,0.914325229,14.16847744,137,NA
+E-G4,Eggplant G4,Eggplant,G4,E G4,8901,7603,control far,control far,control,soil,50,6.588523044,0.906662526,16.22934828,154,NA
+E-I5,Eggplant I5,Eggplant,I5,E I5,6749,5742,control far,control far,control,soil,12,6.586952784,0.904130285,17.90194481,156,NA
+E-J4,Eggplant J4,Eggplant,J4,E J4,6912,5886,control far,control far,control,soil,27,6.01404831,0.890325458,12.86713885,108,NA
+A-A3,Apple A3,Apple,A3,A A3,12379,10227,control near,control near,control,soil,14,6.68168178,0.894755586,16.58418519,177,ants
+A-C3,Apple C3,Apple,C3,A C3,8407,7389,control near,control near,control,soil,11.5,6.549929788,0.904885817,16.8423031,151,ants
+A-D3,Apple D3,Apple,D3,A D3,10293,8758,control near,control near,control,soil,7,6.656474652,0.898383512,18.81228973,170,seeds
+A-E3,Apple E3,Apple,E3,A E3,9282,8172,control near,control near,control,soil,27,6.798187157,0.918564775,15.45229043,169,ants
+A-F2,Apple F2,Apple,F2,A F2,11522,10327,control near,control near,control,soil,30,7.07346232,0.919409152,17.32522,207,empty
+A-G3,Apple G3,Apple,G3,A G3,12159,10673,control near,control near,control,soil,12,7.272723932,0.91299534,21.44307698,250,ants
+A-H3,Apple H3,Apple,H3,A H3,14030,12319,control near,control near,control,soil,13,7.286666629,0.917425662,20.34509488,246,seeds
+A-I2,Apple I2,Apple,I2,A I2,12444,10804,control near,control near,control,soil,22,7.257573778,0.921419179,22.32206386,235,empty
+B-B3,Banana B3,Banana,B3,B B3,17265,15297,control near,control near,control,soil,19,7.325466523,0.902846846,21.66538325,277,ants
+B-C3,Banana C3,Banana,C3,B C3,9246,7557,control near,control near,control,soil,27,6.132807673,0.8818859,12.79321831,124,ants
+B-D4,Banana D4,Banana,D4,B D4,11232,9503,control near,control near,control,soil,35,6.707110832,0.892413345,16.90914506,183,brood/reproductive
+B-E4,Banana E4,Banana,E4,B E4,8427,7504,control near,control near,control,soil,34,6.29517072,0.862988075,15.3308171,157,ants
+B-F3,Banana F3,Banana,F3,B F3,8455,7345,control near,control near,control,soil,24,6.662896261,0.897206938,16.88185267,172,ants
+B-H3,Banana H3,Banana,H3,B H3,7590,6765,control near,control near,control,soil,26,6.630141079,0.910058344,15.00225277,156,seeds
+B-I5,Banana I5,Banana,I5,B I5,8839,7383,control near,control near,control,soil,32,6.386438897,0.884650203,15.28984834,149,brood
+B-J5,Banana J5,Banana,J5,B J5,7207,6182,control near,control near,control,soil,20,6.513807541,0.912355303,14.28594372,141,brood
+B-K5,Banana K5,Banana,K5,B K5,10058,8930,control near,control near,control,soil,12,6.125185956,0.851924258,16.56265995,146,brood/seeds
+B-L6,Banana L6,Banana,L6,B L6,8759,7750,control near,control near,control,soil,14,6.703894202,0.893870928,19.05290529,181,brood
+C-A3,Carrot A3,Carrot,A3,C A3,11504,9987,control near,control near,control,soil,40,6.84540166,0.902496441,16.66927577,192,ants
+C-B3,Carrot B3,Carrot,B3,C B3,9424,7972,control near,control near,control,soil,30,6.791419105,0.916596136,16.85860912,170,ants
+C-C4,Carrot C4,Carrot,C4,C C4,10343,8900,control near,control near,control,soil,38,6.550293174,0.900244802,14.72197601,155,seeds
+C-D4,Carrot D4,Carrot,D4,C D4,12895,11258,control near,control near,control,soil,22,6.745722399,0.866907925,20.05631917,220,seeds
+C-E3,Carrot E3,Carrot,E3,C E3,12867,11299,control near,control near,control,soil,34,6.926036246,0.896235447,17.72397544,212,empty
+C-F4,Carrot F4,Carrot,F4,C F4,9002,7843,control near,control near,control,soil,36,6.479689993,0.892840528,14.04245972,153,brood/reproductive
+C-G3,Carrot G3,Carrot,G3,C G3,6450,5692,control near,control near,control,soil,26,5.458893607,0.818127342,11.33941261,102,ants
+C-H2,Carrot H2,Carrot,H2,C H2,8369,7133,control near,control near,control,soil,30,6.659902231,0.916485188,14.37566884,154,empty
+C-I5,Carrot I5,Carrot,I5,C I5,12194,10531,control near,control near,control,soil,26,6.870012359,0.893776347,19.01818096,206,seeds
+C-K3,Carrot K3,Carrot,K3,C K3,6701,5755,control near,control near,control,soil,6,6.679188279,0.906719539,18.88476246,165,seeds
+DC-A2,DC A2,DC,A2,DC A2,7564,6315,control near,control near,control,soil,16,6.229577797,0.887105028,14.49216931,130,empty
+DC-C3,DC C3,DC,C3,DC C3,12361,10474,control near,control near,control,soil,30,6.727322476,0.913253898,16.30400822,165,ants
+DC-D3,DC D3,DC,D3,DC D3,9889,8727,control near,control near,control,soil,25,6.762785841,0.915906918,16.04029242,167,ants
+DC-E2,DC E2,DC,E2,DC E2,7087,6204,control near,control near,control,soil,11,6.142378597,0.85668659,16.10611687,144,seeds
+DC-H3,DC H3,DC,H3,DC H3,10613,9350,control near,control near,control,soil,30,7.058350659,0.917444937,18.99536479,207,ants
+DC-J3,DC J3,DC,J3,DC J3,8102,7012,control near,control near,control,soil,19,7.004378048,0.930025665,16.79397045,185,ants
+DC-K3,DC K3,DC,K3,DC K3,8303,7317,control near,control near,control,soil,18,6.934326659,0.904634413,19.74438464,203,ants
+DC-N3,DC N3,DC,N3,DC N3,7796,6679,control near,control near,control,soil,53,6.616253484,0.905866936,16.41297745,158,ants
+DC-O5,DC O5,DC,O5,DC O5,7529,6154,control near,control near,control,soil,39,6.276157729,0.908680635,13.30597998,120,brood/reproductive
+DC-P3,DC P3,DC,P3,DC P3,8146,6691,control near,control near,control,soil,49,6.483801985,0.909460596,14.08913862,140,brood
+DC-Q5,DC Q5,DC,Q5,DC Q5,8605,7218,control near,control near,control,soil,49,6.769424609,0.911551747,18.84671256,172,brood/reproductive
+DC-R5,DC R5,DC,R5,DC R5,6744,5834,control near,control near,control,soil,44,6.484705232,0.90192816,15.49968555,146,brood/reproductive
+E-A3,Eggplant A3,Eggplant,A3,E A3,22130,19507,control near,control near,control,soil,30,7.782265259,0.918181928,25.46210819,356,ants
+E-B3,Eggplant B3,Eggplant,B3,E B3,8687,7107,control near,control near,control,soil,29,6.367271676,0.92348658,13.33211866,119,ants
+E-C3,Eggplant C3,Eggplant,C3,E C3,8531,7434,control near,control near,control,soil,25,6.70493271,0.900844231,19.84616926,174,ants
+E-D4,Eggplant D4,Eggplant,D4,E D4,7126,6256,control near,control near,control,soil,28,6.537188309,0.92374716,15.62777899,135,brood
+E-E1,Eggplant E1,Eggplant,E1,E E1,13647,11509,control near,control near,control,soil,40,7.304341913,0.926636138,19.098376,236,empty
+E-F3,Eggplant F3,Eggplant,F3,E F3,9647,7772,control near,control near,control,soil,46,6.51906182,0.910499856,13.59317399,143,ants
+E-G3,Eggplant G3,Eggplant,G3,E G3,10873,9452,control near,control near,control,soil,50,7.000114424,0.909053857,18.96988575,208,ants
+E-H3,Eggplant H3,Eggplant,H3,E H3,7823,6783,control near,control near,control,soil,23,6.634789032,0.931991003,14.7813104,139,ants
+E-I4,Eggplant I4,Eggplant,I4,E I4,8368,7172,control near,control near,control,soil,12,6.610799268,0.914506166,18.09201208,150,seeds
+E-J3,Eggplant J3,Eggplant,J3,E J3,10021,8886,control near,control near,control,soil,27,6.834207195,0.899248102,18.90239658,194,ants
+E-K3,Eggplant K3,Eggplant,K3,E K3,6735,5887,control near,control near,control,soil,13,6.621755357,0.907758688,16.42845498,157,ants
+A-C1,Apple C1,Apple,C1,A C1,31452,29306,sample,ants,ants,ants,11.5,0.569388443,0.139301191,4.832096917,17,ants
+A-E1,Apple E1,Apple,E1,A E1,44319,41529,sample,ants,ants,ants,27,0.648788673,0.162197168,4.192234998,16,ants
+A-G1,Apple G1,Apple,G1,A G1,50885,46451,sample,ants,ants,ants,12,0.296695377,0.069844736,4.540016629,19,ants
+A-H4,Apple H4,Apple,H4,A H4,53823,49872,sample,ants,ants,ants,13,0.561734157,0.137428566,3.990325572,17,seeds
+B-B1,Banana B1,Banana,B1,B B1,40194,37653,sample,ants,ants,ants,19,0.20722563,0.044086435,6.212582233,26,ants
+B-C1,Banana C1,Banana,C1,B C1,32638,30060,sample,ants,ants,ants,27,0.545265859,0.139565172,4.765136514,15,ants
+B-D1,Banana D1,Banana,D1,B D1,37296,34706,sample,ants,ants,ants,35,1.042293402,0.21920464,4.95307785,27,brood/reproductive
+B-E2,Banana E2,Banana,E2,B E2,32961,30738,sample,ants,ants,ants,34,0.320322107,0.071830254,5.801328283,22,ants
+B-F1,Banana F1,Banana,F1,B F1,135125,123424,sample,ants,ants,ants,24,0.455747551,0.082986115,7.275186697,45,ants
+B-H4,Banana H4,Banana,H4,B H4,17365,15763,sample,ants,ants,ants,26,2.687369556,0.444605283,9.737013128,66,seeds
+B-I3,Banana I3,Banana,I3,B I3,8926,8144,sample,ants,ants,ants,32,0.936322686,0.184045115,7.345960027,34,brood
+B-J3,Banana J3,Banana,J3,B J3,39612,36741,sample,ants,ants,ants,20,0.505362621,0.093132688,9.102190567,43,brood
+B-K4,Banana K4,Banana,K4,B K4,39311,36358,sample,ants,ants,ants,12,0.219081542,0.049127683,5.317674642,22,brood/seeds
+B-L3,Banana L3,Banana,L3,B L3,38006,34615,sample,ants,ants,ants,14,0.475167328,0.108181464,6.027551751,21,brood
+B-L4,Banana L4,Banana,L4,B L4,30625,28435,sample,ants,ants,ants,14,0.402034317,0.073205585,8.894463224,45,brood
+C-A1,Carrot A1,Carrot,A1,C A1,34215,30962,sample,ants,ants,ants,40,1.243390352,0.292705172,4.226874169,19,ants
+C-B1,Carrot B1,Carrot,B1,C B1,47304,42708,sample,ants,ants,ants,30,0.778052128,0.217032152,3.726454761,12,ants
+C-C2,Carrot C2,Carrot,C2,C C2,45538,41042,sample,ants,ants,ants,38,0.988628265,0.297606762,3.487802728,10,seeds
+C-D2,Carrot D2,Carrot,D2,C D2,46660,42403,sample,ants,ants,ants,22,1.030106297,0.343368766,3.375091786,8,seeds
+C-E2,Carrot E2,Carrot,E2,C E2,40899,36850,sample,ants,ants,ants,34,1.701659606,0.408079187,4.136688494,18,empty
+C-F5,Carrot F5,Carrot,F5,C F5,61661,55780,sample,ants,ants,ants,36,1.265862201,0.365916237,3.447062943,11,brood/reproductive
+C-G1,Carrot G1,Carrot,G1,C G1,56095,50331,sample,ants,ants,ants,26,1.072976991,0.322998259,3.500003589,10,ants
+C-I3,Carrot I3,Carrot,I3,C I3,56788,50928,sample,ants,ants,ants,26,0.944053513,0.336278646,3.123745763,7,seeds
+DC-B2,DC B2,DC,B2,DC B2,15279,13186,sample,ants,ants,ants,28,0.689379061,0.21747488,3.022140991,9,empty
+DC-C1,DC C1,DC,C1,DC C1,47723,44589,sample,ants,ants,ants,30,0.102719841,0.036589546,3.184388291,7,ants
+DC-D1,DC D1,DC,D1,DC D1,40572,37133,sample,ants,ants,ants,25,1.254887186,0.362743747,3.596568043,11,ants
+DC-G2,DC G2,DC,G2,DC G2,41845,37901,sample,ants,ants,ants,13,1.006077146,0.634764005,2.617053244,3,seeds
+DC-H1,DC H1,DC,H1,DC H1,38180,34915,sample,ants,ants,ants,30,1.120732809,0.433558633,3.005529881,6,ants
+DC-I1,DC I1,DC,I1,DC I1,48460,41843,sample,ants,ants,ants,24,1.096711383,0.258175635,6.899839742,19,ants
+DC-J1,DC J1,DC,J1,DC J1,31856,28869,sample,ants,ants,ants,19,0.816762092,0.351760286,3.023700769,5,ants
+DC-K1,DC K1,DC,K1,DC K1,32499,29668,sample,ants,ants,ants,18,1.599441457,0.26968678,8.751705747,61,ants
+DC-L1,DC L1,DC,L1,DC L1,49490,46037,sample,ants,ants,ants,14,0.057439212,0.016603656,3.530837746,11,ants
+DC-M2,DC M2,DC,M2,DC M2,32215,29916,sample,ants,ants,ants,36,0.714313169,0.135148308,7.108206531,39,seeds
+DC-N1,DC N1,DC,N1,DC N1,49314,45122,sample,ants,ants,ants,53,0.217487933,0.093666954,3.042250674,5,ants
+DC-O3,DC O3,DC,O3,DC O3,47257,44090,sample,ants,ants,ants,39,0.171389791,0.04954276,4.237108407,11,brood/reproductive
+DC-P2,DC P2,DC,P2,DC P2,38310,34447,sample,ants,ants,ants,49,0.385331265,0.115996269,3.537116277,10,brood
+DC-Q3,DC Q3,DC,Q3,DC Q3,45174,40859,sample,ants,ants,ants,49,0.980763406,0.618792814,2.611493848,3,brood/reproductive
+DC-R3,DC R3,DC,R3,DC R3,40633,35854,sample,ants,ants,ants,44,0.824074965,0.293541425,3.205469759,7,brood/reproductive
+E-A1,Eggplant A1,Eggplant,A1,E A1,31143,28102,sample,ants,ants,ants,30,0.712390925,0.449468631,2.74856671,3,ants
+E-B1,Eggplant B1,Eggplant,B1,E B1,42485,39335,sample,ants,ants,ants,29,0.323896049,0.07767431,4.002727167,18,ants
+E-C1,Eggplant C1,Eggplant,C1,E C1,26313,24480,sample,ants,ants,ants,25,0.700287498,0.150798705,5.220222959,25,ants
+E-F1,Eggplant F1,Eggplant,F1,E F1,41553,36833,sample,ants,ants,ants,46,0.355477877,0.153095989,2.954318237,5,ants
+E-G1,Eggplant G1,Eggplant,G1,E G1,41100,36482,sample,ants,ants,ants,50,0.328642532,0.207350352,2.620884994,3,ants
+E-H1,Eggplant H1,Eggplant,H1,E H1,31315,28717,sample,ants,ants,ants,23,1.336957965,0.843526559,2.620884994,3,ants
+E-I2,Eggplant I2,Eggplant,I2,E I2,35442,32361,sample,ants,ants,ants,12,0.733934644,0.316088446,3.01319322,5,seeds
+E-J1,Eggplant J1,Eggplant,J1,E J1,31049,27582,sample,ants,ants,ants,27,0.689306679,0.344653339,2.914273622,4,ants
+E-K1,Eggplant K1,Eggplant,K1,E K1,34031,30504,sample,ants,ants,ants,13,0.036580792,0.036580792,2.474367543,2,ants
+E-L2,Eggplant L2,Eggplant,L2,E L2,19865,18009,sample,ants,ants,ants,15,0.293470511,0.12639087,3.005236442,5,brood
+B-D2,Banana D2,Banana,D2,B D2,11800,10628,sample,brood,brood,brood,35,5.2321409,0.748658887,14.3172689,127,brood/reproductive
+B-E1,Banana E1,Banana,E1,B E1,11335,9859,sample,brood,brood,brood,34,4.800223719,0.651644549,16.89398641,165,ants
+B-I1,Banana I1,Banana,I1,B I1,11704,8456,sample,brood,brood,brood,32,4.799381784,0.722378939,10.55120396,100,brood
+B-J1,Banana J1,Banana,J1,B J1,8618,7551,sample,brood,brood,brood,20,6.91566039,0.888000375,23.42829057,221,brood
+B-K1,Banana K1,Banana,K1,B K1,15774,13307,sample,brood,brood,brood,12,5.36015599,0.723427342,17.29374726,170,brood/seeds
+B-L1,Banana L1,Banana,L1,B L1,25617,22888,sample,brood,brood,brood,14,6.080186442,0.82540327,17.50725741,165,brood
+B-L2,Banana L2,Banana,L2,B L2,9361,8382,sample,brood,brood,brood,14,6.441395427,0.850076665,17.82772591,191,brood
+C-F2,Carrot F2,Carrot,F2,C F2,53436,49335,sample,brood,brood,brood,36,0.804627312,0.135136175,9.362293327,62,brood/reproductive
+DC-O1,DC O1,DC,O1,DC O1,6569,5564,sample,brood,brood,brood,39,6.025593404,0.915053564,10.60130471,96,brood/reproductive
+DC-P1,DC P1,DC,P1,DC P1,14415,12535,sample,brood,brood,brood,49,7.191215308,0.909487139,19.41667108,240,brood
+DC-Q1,DC Q1,DC,Q1,DC Q1,16638,13674,sample,brood,brood,brood,49,5.933507335,0.786218406,18.47888175,187,brood/reproductive
+DC-R2,DC R2,DC,R2,DC R2,16615,12800,sample,brood,brood,brood,44,4.697812818,0.641608707,17.54192759,160,brood/reproductive
+E-D1,Eggplant D1,Eggplant,D1,E D1,10911,9412,sample,brood,brood,brood,28,4.755942389,0.660577615,17.65321422,147,brood
+E-L1,Eggplant L1,Eggplant,L1,E L1,10405,8961,sample,brood,brood,brood,15,6.336428742,0.899499465,12.04934216,132,brood
+B-D6,Banana D6,Banana,D6,B D6,37233,31611,sample,reproductives,reproductives,reproductives,35,4.147621252,0.659881597,12.57879322,78,brood/reproductive
+B-I2,Banana I2,Banana,I2,B I2,13167,7110,sample,reproductives,reproductives,reproductives,32,5.366384557,0.851296194,16.23480903,79,brood
+B-J2,Banana J2,Banana,J2,B J2,27857,24752,sample,reproductives,reproductives,reproductives,20,7.09630742,0.931023245,18.93072239,197,brood
+C-F1,Carrot F1,Carrot,F1,C F1,18024,16177,sample,reproductives,reproductives,reproductives,36,4.89732959,0.863357258,7.319751817,51,brood/reproductive
+DC-O2,DC O2,DC,O2,DC O2,22507,19438,sample,reproductives,reproductives,reproductives,39,5.764216314,0.846763006,11.03970398,112,brood/reproductive
+DC-Q2,DC Q2,DC,Q2,DC Q2,16618,8974,sample,reproductives,reproductives,reproductives,49,5.414434223,0.737676413,17.55210534,162,brood/reproductive
+DC-R1,DC R1,DC,R1,DC R1,15349,8780,sample,reproductives,reproductives,reproductives,44,4.825388585,0.752862266,12.11775904,85,brood/reproductive
+A-B1,Apple B1,Apple,B1,A B1,23674,20840,sample,seeds,seeds,seeds,9,4.532911745,0.676509593,11.22559095,104,seeds
+A-D1,Apple D1,Apple,D1,A D1,33413,29079,sample,seeds,seeds,seeds,7,1.828993536,0.651500643,2.924268996,7,seeds
+A-H1,Apple H1,Apple,H1,A H1,21233,16634,sample,seeds,seeds,seeds,13,3.603055209,0.545924665,12.71270555,97,seeds
+B-H1,Banana H1,Banana,H1,B H1,20400,18727,sample,seeds,seeds,seeds,26,1.102682364,0.275670591,4.320423548,16,seeds
+B-K2,Banana K2,Banana,K2,B K2,43475,38808,sample,seeds,seeds,seeds,12,0.936658858,0.333644617,2.912691022,7,brood/seeds
+B-K6,Banana K6,Banana,K6,B K6,32323,29263,sample,seeds,seeds,seeds,12,4.842433701,0.738785271,11.01574122,94,brood/seeds
+C-C1,Carrot C1,Carrot,C1,C C1,25374,22598,sample,seeds,seeds,seeds,38,3.717448166,0.530213618,13.19373268,129,seeds
+C-D1,Carrot D1,Carrot,D1,C D1,15195,13367,sample,seeds,seeds,seeds,22,5.675173321,0.791524782,14.35351967,144,seeds
+C-I1,Carrot I1,Carrot,I1,C I1,37529,34049,sample,seeds,seeds,seeds,26,5.507689092,0.73359613,17.02899818,182,seeds
+C-I2,Carrot I2,Carrot,I2,C I2,32310,29094,sample,seeds,seeds,seeds,26,2.716945993,0.414510514,10.49174697,94,seeds
+C-K1,Carrot K1,Carrot,K1,C K1,34510,30974,sample,seeds,seeds,seeds,6,1.772791819,0.685809492,3.017657705,6,seeds
+DC-E3,DC E3,DC,E3,DC E3,8908,7977,sample,seeds,seeds,seeds,11,5.795023655,0.817644309,13.58231945,136,seeds
+DC-G1,DC G1,DC,G1,DC G1,38825,32899,sample,seeds,seeds,seeds,13,1.16370278,0.450181687,2.956254826,6,seeds
+DC-M1,DC M1,DC,M1,DC M1,23597,20949,sample,seeds,seeds,seeds,36,1.283046519,0.328406053,4.281293038,15,seeds
+E-I1,Eggplant I1,Eggplant,I1,E I1,20887,18410,sample,seeds,seeds,seeds,12,1.86158678,0.391510163,6.105330566,27,seeds
+A-A2,Apple A2,Apple,A2,A A2,9495,8130,nest_soil,soil,soil,soil,5,6.545538974,0.891781027,17.07240547,162,ants
+A-B2,Apple B2,Apple,B2,A B2,13992,12032,nest_soil,soil,soil,soil,9,6.7815487,0.915263988,12.23572818,170,seeds
+A-C2,Apple C2,Apple,C2,A C2,12576,11093,nest_soil,soil,soil,soil,11.5,7.123879551,0.9124575,19.12994152,224,ants
+A-D2,Apple D2,Apple,D2,A D2,9798,8631,nest_soil,soil,soil,soil,7,6.83619199,0.920542455,16.56136546,172,seeds
+A-E2,Apple E2,Apple,E2,A E2,12261,10629,nest_soil,soil,soil,soil,27,6.71214446,0.903838562,13.77944064,172,ants
+A-F1,Apple F1,Apple,F1,A F1,10891,9234,nest_soil,soil,soil,soil,30,6.893409956,0.927203048,15.02014822,173,empty
+A-G2,Apple G2,Apple,G2,A G2,10846,9517,nest_soil,soil,soil,soil,12,6.86193102,0.894362697,21.05014046,204,ants
+A-I1,Apple I1,Apple,I1,A I1,16892,14740,nest_soil,soil,soil,soil,22,7.286003494,0.91599493,20.44594739,248,empty
+B-C2,Banana C2,Banana,C2,B C2,7358,6482,nest_soil,soil,soil,soil,27,5.933709731,0.865226914,11.86706513,116,ants
+B-D3,Banana D3,Banana,D3,B D3,9588,8349,nest_soil,soil,soil,soil,35,6.32646421,0.877523425,14.13930078,148,brood/reproductive
+B-E3,Banana E3,Banana,E3,B E3,7686,6716,nest_soil,soil,soil,soil,34,6.35115662,0.884573403,14.52525578,145,ants
+B-F2,Banana F2,Banana,F2,B F2,9750,8594,nest_soil,soil,soil,soil,24,5.800843969,0.82736499,13.01546293,129,ants
+B-H2,Banana H2,Banana,H2,B H2,6013,5333,nest_soil,soil,soil,soil,26,6.101747482,0.884975889,12.84567288,119,seeds
+B-I4,Banana I4,Banana,I4,B I4,19516,16975,nest_soil,soil,soil,soil,32,7.112091633,0.883506266,21.41766573,265,brood
+B-J4,Banana J4,Banana,J4,B J4,8196,7135,nest_soil,soil,soil,soil,20,6.661444921,0.912054339,17.29312814,158,brood
+B-K3,Banana K3,Banana,K3,B K3,8722,7653,nest_soil,soil,soil,soil,12,6.687992281,0.90160761,18.55958677,171,brood/seeds
+B-L5,Banana L5,Banana,L5,B L5,6713,5956,nest_soil,soil,soil,soil,14,6.060371675,0.863009719,15.9326253,130,brood
+C-A2,Carrot A2,Carrot,A2,C A2,9485,8395,nest_soil,soil,soil,soil,40,6.831334728,0.912814389,17.74634588,179,ants
+C-B2,Carrot B2,Carrot,B2,C B2,8616,7696,nest_soil,soil,soil,soil,30,6.780679293,0.918330289,16.05994013,167,ants
+C-C3,Carrot C3,Carrot,C3,C C3,8265,7262,nest_soil,soil,soil,soil,38,6.82953733,0.915557335,18.45995343,176,seeds
+C-D3,Carrot D3,Carrot,D3,C D3,13295,11788,nest_soil,soil,soil,soil,22,7.221276124,0.91328899,20.56981827,240,seeds
+C-E1,Carrot E1,Carrot,E1,C E1,12499,10634,nest_soil,soil,soil,soil,34,6.687509159,0.906776055,14.32998675,166,empty
+C-F3,Carrot F3,Carrot,F3,C F3,9232,8266,nest_soil,soil,soil,soil,36,5.938378869,0.820398842,13.53345794,151,brood/reproductive
+C-G2,Carrot G2,Carrot,G2,C G2,8363,7304,nest_soil,soil,soil,soil,26,6.687303729,0.921447754,16.01866402,153,ants
+C-H1,Carrot H1,Carrot,H1,C H1,16624,15063,nest_soil,soil,soil,soil,30,6.687169508,0.848341028,17.4512071,236,empty
+C-I4,Carrot I4,Carrot,I4,C I4,10246,9036,nest_soil,soil,soil,soil,26,6.63620147,0.896677419,17.97070752,169,seeds
+C-K2,Carrot K2,Carrot,K2,C K2,7819,6077,nest_soil,soil,soil,soil,6,5.118736351,0.814384851,10.64439003,78,seeds
+DC-A1,DC A1,DC,A1,DC A1,8486,7282,nest_soil,soil,soil,soil,16,6.848825426,0.912228658,18.09338106,182,empty
+DC-B1,DC B1,DC,B1,DC B1,9692,8340,nest_soil,soil,soil,soil,28,6.325681417,0.886005451,13.96360316,141,empty
+DC-C2,DC C2,DC,C2,DC C2,14340,12426,nest_soil,soil,soil,soil,30,6.902344162,0.90470855,18.66840355,198,ants
+DC-D2,DC D2,DC,D2,DC D2,8664,7254,nest_soil,soil,soil,soil,25,6.424630667,0.902469988,15.93159799,139,ants
+DC-G3,DC G3,DC,G3,DC G3,6107,5374,nest_soil,soil,soil,soil,13,6.393005854,0.919301896,12.1875128,124,seeds
+DC-H2,DC H2,DC,H2,DC H2,10699,8896,nest_soil,soil,soil,soil,30,6.336376291,0.878898298,16.21296747,148,ants
+DC-I2,DC I2,DC,I2,DC I2,9361,7786,nest_soil,soil,soil,soil,24,5.983506383,0.854786626,12.29913828,128,ants
+DC-J2,DC J2,DC,J2,DC J2,8322,7246,nest_soil,soil,soil,soil,19,6.506369794,0.902477548,14.8536333,148,ants
+DC-K2,DC K2,DC,K2,DC K2,11037,9479,nest_soil,soil,soil,soil,18,7.031002461,0.908226112,20.27220644,214,ants
+DC-L2,DC L2,DC,L2,DC L2,7767,6898,nest_soil,soil,soil,soil,14,6.58215924,0.905786788,13.90680015,154,ants
+DC-M4,DC M4,DC,M4,DC M4,6699,5812,nest_soil,soil,soil,soil,36,6.216884518,0.897001894,14.37099988,122,seeds
+DC-N2,DC N2,DC,N2,DC N2,8190,7027,nest_soil,soil,soil,soil,53,6.569063988,0.897176796,16.83307586,160,ants
+DC-O4,DC O4,DC,O4,DC O4,7846,6604,nest_soil,soil,soil,soil,39,6.081092365,0.885119293,12.62473702,117,brood/reproductive
+DC-P4,DC P4,DC,P4,DC P4,8856,7626,nest_soil,soil,soil,soil,49,6.621889549,0.895779925,17.1280585,168,brood
+DC-Q4,DC Q4,DC,Q4,DC Q4,10094,8846,nest_soil,soil,soil,soil,49,6.636305671,0.874065621,19.75685139,193,brood/reproductive
+E-B2,Eggplant B2,Eggplant,B2,E B2,8744,7721,nest_soil,soil,soil,soil,29,6.826049836,0.90541266,20.25174513,186,ants
+E-C2,Eggplant C2,Eggplant,C2,E C2,9641,8361,nest_soil,soil,soil,soil,25,7.03194457,0.922578951,19.54648706,197,ants
+E-D2,Eggplant D2,Eggplant,D2,E D2,18968,15999,nest_soil,soil,soil,soil,28,6.943752294,0.887204916,17.9208412,227,brood
+E-D3,Eggplant D3,Eggplant,D3,E D3,9750,8605,nest_soil,soil,soil,soil,28,6.947089146,0.91410116,18.81785725,194,brood
+E-E2,Eggplant E2,Eggplant,E2,E E2,8860,7569,nest_soil,soil,soil,soil,40,6.617726777,0.913050905,15.02345462,152,empty
+E-F2,Eggplant F2,Eggplant,F2,E F2,8807,7621,nest_soil,soil,soil,soil,46,6.761797677,0.908484349,17.69675218,174,ants
+E-G2,Eggplant G2,Eggplant,G2,E G2,9144,7967,nest_soil,soil,soil,soil,50,6.76606498,0.906055487,16.98059142,177,ants
+E-I3,Eggplant I3,Eggplant,I3,E I3,16068,13955,nest_soil,soil,soil,soil,12,7.330077039,0.911823723,23.85153561,263,seeds
+E-J2,Eggplant J2,Eggplant,J2,E J2,8185,7225,nest_soil,soil,soil,soil,27,6.642906363,0.933131247,14.89161611,139,ants
+E-K2,Eggplant K2,Eggplant,K2,E K2,8204,7133,nest_soil,soil,soil,soil,13,6.538282517,0.89519151,17.27482988,158,ants
+E-L3,Eggplant L3,Eggplant,L3,E L3,13329,11842,nest_soil,soil,soil,soil,15,7.047896702,0.905741022,17.24332282,220,brood
