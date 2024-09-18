@@ -7,7 +7,7 @@ This code takes sequencing data from the NCBI reposetory found at NCBI BioProjec
 
 2. Nest_microbes_code.R is R code used to analyse data and produce figures for the manuscript. It requires the file "updated_clean_sample_metadata_diversity_metrics_239_1.csv"
 
-**Data files (in folder 'Data':**)
+**Data files (in folder 'Data'):**
 1. table.qza - Amplicon Aequence Variant (ASV) table, which records the number of times each exact amplicon sequence variant was observed in each sample. It is produced by the "QIIME2_analysis" code and is required for the "Nest_microbes_code.R".
    
 2. taxonomy.qza - Contains taxonomic assignments data. It is produced by the "QIIME2_analysis" code and is required for the "Nest_microbes_code.R".
